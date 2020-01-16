@@ -1,0 +1,29 @@
+[
+    {
+        "name":"DictionaryMapping",
+        "forward":"DictionaryMappingViewController",
+        "params":null
+    },
+    {
+        "name":"DictionaryManipulation",
+        "forward":"DictionaryManipulationViewController",
+        "params":null
+    },
+    {
+        "name":"ArrayManipulation",
+        "forward":"ArrayManipulationViewController",
+        "params":null
+    },
+    {
+        "name":"Serializer",
+        "forward":"SerializerViewController",
+        "params":null
+    },
+    {
+        "name":"Response",
+        "forward":"ResponseViewController",
+        "params":null
+    }
+]
+
+

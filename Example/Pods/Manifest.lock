@@ -1,0 +1,37 @@
+PODS:
+  - JXDemo (1.0.4):
+    - Mantle (= 2.1.0)
+  - JXUIKit (1.0.0):
+    - QMUIKit/QMUICore (= 4.0.4)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - QMUIKit/QMUICore (4.0.4):
+    - QMUIKit/QMUILog
+    - QMUIKit/QMUIWeakObjectContainer
+  - QMUIKit/QMUILog (4.0.4)
+  - QMUIKit/QMUIWeakObjectContainer (4.0.4)
+
+DEPENDENCIES:
+  - JXDemo (= 1.0.4)
+  - JXUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JXDemo
+    - Mantle
+    - QMUIKit
+
+EXTERNAL SOURCES:
+  JXUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXDemo: d645c0fda41648b9a5ce67e038bdda1600bb4fe8
+  JXUIKit: 10c6637aa32bb473f9796c525d29493ee8f80d2e
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  QMUIKit: 73899f707bdd51f44d16e10d11f224fb821fbe74
+
+PODFILE CHECKSUM: a4a091c5d254817fcae03019e0cd362b978e3059
+
+COCOAPODS: 1.8.4

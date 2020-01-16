@@ -1,0 +1,2219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0002B5F46D742A1AD2E638D5F8E192D4 /* UISwitch+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C60FECA9FE91044D5F7DF6F1066E6C50 /* UISwitch+QMUI.m */; };
+		01285726D7DEEC900B8BFF5DD388C51A /* NSAttributedString+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2F073971E8C6432AC379F7D855A927 /* NSAttributedString+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		031E39D3554429265B18D8FF3B6E5D75 /* QMUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 815EBDF16FCAE0FE5C5CB8F78C1FB0D0 /* QMUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04565D377F33BB23EF1679E328C8BC03 /* QMUILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E3D27DD342C04E0DEAEAD7E8F490CB /* QMUILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04FEC2B41099F24057D3E69A2CF0F202 /* UIImage+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B2279D2295CCAC9F8DF7D72571D099 /* UIImage+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05092FCC89D592FAA46EEE200CD01176 /* UIGestureRecognizer+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 576D99244F09B3AE4F91D572C69069EC /* UIGestureRecognizer+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		071EBD52127CA810F09BF46BC336FABC /* UIFont+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE7BA50EC2CE781263FB1DFDC633DDC /* UIFont+QMUI.m */; };
+		076E85A89EAB501AE2FF0C4053FF5A8F /* UIView+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC0B0AB396F201EE0EE8C57E19BC2C3 /* UIView+JXDemo.m */; };
+		098DE1FBCD494B66541A674137E48AA7 /* UITraitCollection+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E03F65B252B9C7C3CD024EF9AE1C1D53 /* UITraitCollection+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5E1AD27041C130AD17AED928FA49C2 /* UICollectionView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD94F47083D820AB6CC33B3EB1973C /* UICollectionView+QMUI.m */; };
+		0CA10518E9FE1B5F590414719C2AAA41 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 205254DF80FDED68C81FA379385FB5DA /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0D247B3355E2344FE14F9ABDF48A6A91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */; };
+		0D30B475838175B8D7C5BC222E891B77 /* NSString+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5748D719B80DABD2406031E242C03BA6 /* NSString+QMUI.m */; };
+		0DF155B055F968D4906ED8FEC9AD35CF /* NSParagraphStyle+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591C7EC65876D8324A42AD174B756DA /* NSParagraphStyle+QMUI.m */; };
+		0E3BF5F84815D5AF635F873BAB08E99E /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 607DF5EBC7D8F61F293FB9CA28FCF1CA /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E60D7F6E12F6BD24A295C9E541948A7 /* UIActivityIndicatorView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E10343DE7ED0CF419A81CBCFF41FB9A3 /* UIActivityIndicatorView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1044318E685C4FF1C8B294B7DB0DCA4F /* CALayer+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DE04C188A0BD89B14AFCEEC28DCC7BDB /* CALayer+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		114C00CA62D034849B1B5190718BD8AA /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EF966D827E99D06F6BDB58DB9F2CA3 /* EXTScope.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		12078D3A60281A1E73B1D4FC138C2D8F /* QMUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D80A09F61A76A06B0825D6FC0F548D43 /* QMUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		122E0AC87436DD5926FFABED7E2CE014 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5101CD1EF3FAEDC91B033E81095DBF54 /* NSValueTransformer+MTLInversionAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		123893AE8BF059D009E3EB4A67079D35 /* JXUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 615A8513A52F80FEAACAB73EFD44A08C /* JXUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13953ED566562D44A90D20EA27456906 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD63FE89DEF3FD7E7F9FC31907DF1B2 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		13E96F3F3E39D64F7DF07C984266D702 /* JXDWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD2D53DE65F3853954DD5D884C6C244 /* JXDWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A1978F01FC7F7B15D99884831E00A4 /* QMUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E4AF6DEA48A6A55006613A8CAC291B /* QMUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14BEED6353F21896A308A23433886F2D /* QMUIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5549C9070BDFDDC02ECEFEC3C71CBC50 /* QMUIRuntime.m */; };
+		16922AD6974CBDFD63B1C37F8643A1EF /* UITextView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6E9109BAFEB02C81E33C6DC2556521 /* UITextView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19720C57487749BD53042A6B4B1E0AE7 /* QMUILogItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D762E68DD7941BCED942D39DCBAC99AD /* QMUILogItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1980ED4BE6E142382D6FCF3EE410A51B /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D9981A3CEED3C2AAB90AA334D17713 /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1A7C0AE297D03EE517777A973DEA494E /* Pods-JXUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518DD1730178986854AA9CA5DBA93D86 /* Pods-JXUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B39EFA06F79ACF07E4ABDEFC49B2C1F /* UIApplication+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = F49CC28FE225BD119E9B6B3316E732D2 /* UIApplication+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B87D11ADE259BD0BF535D907F2040FB /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D937E1B33E140DA1BE0E770BFBD10 /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C440AE07FE64AF5362290FF47DA10FD /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BF15E75E0C315541F57425DA3204C1 /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C6519C5229FBE4AA4634F731A339C7D /* UIViewController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 404234D242BBC3330C98B7929F7A6D5F /* UIViewController+QMUI.m */; };
+		1D69771B55D6F46217C705D363C65745 /* JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 168F5135748E65CB2ABF5AA6F2298FA4 /* JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E15EE60362D6952508AA8FFCAD836E3 /* NSArray+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4177A5D764326E41DFB7BB07AA2A9BE6 /* NSArray+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2176AE9C3F3C17D21D0081550ACFE257 /* JXDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D11DE655ADA6EFEEE6A1EFD438CE15 /* JXDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2252680537D1661ADFA1A8A1AD4F0C3E /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D62EAF25E9140F3E699F09F98D886294 /* NSDictionary+MTLMappingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22C5C4F25E2C01169B39199AEDDBB1BF /* NSCharacterSet+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F39AB4FD8FE675EAA06C6D0A87B7E353 /* NSCharacterSet+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2357FFC1EFE6897A53C41355E5C78001 /* UITextInputTraits+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5566CDEEB14128E6186042A0F9AE37A8 /* UITextInputTraits+QMUI.m */; };
+		23736FCA466158AF8B5CD22BE7C0C4E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */; };
+		2496751E3B5E9FCDBE618AB86D8A7DE1 /* NSPointerArray+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E8797581E5CFA8DDEE35D944D56B63B1 /* NSPointerArray+QMUI.m */; };
+		27D40B7021EBE1F3B0654AB59B740282 /* UIWindow+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A973ACAD5DA1B49AF64C64DF458D485 /* UIWindow+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27EF66383F1747AF5742970F8ECAA3A7 /* NSArray+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB328386AB36DC1ABDC3A2C2BF009F4 /* NSArray+QMUI.m */; };
+		27FF9DA7C8AA80756A6B40753B46D40F /* UILabel+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E43C0635B1ACCBC8584EF5183E920812 /* UILabel+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0C45488F4561C9E1870C4B30BA3980 /* JXUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D4678BEFB6E72349FE4FEEE69D646E7B /* JXUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2A3931E25773E6BD2C6DC86F5D1800 /* UIBezierPath+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B146C42A35655BCD7C55F09D9C911C /* UIBezierPath+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5D3EB3A7E833CDBDD87DBAA67CBDA8 /* JXUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9843B95C4CC212CE264FE90E5EA198AA /* JXUILabel.m */; };
+		2AC634D91AE542405A03D5A5DBC852FE /* QMUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBA02D1FE10EE329F125FBF8AED8515 /* QMUIKit.framework */; };
+		2AEA3E60E0E31C49928012F40BF4B47A /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B37B491D73BD5AB3DB966060DD460A7 /* NSObject+MTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD3BF08E7EE50D606F352D0DD7FE70D /* JXDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D3854C0A0F5CF13C9BD1539417B44 /* JXDTableViewController.m */; };
+		2CF516927D33D40CD25126C9954BEA24 /* UIApplication+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC56BF2FE9DB497EDCDCF3A1FF142C5 /* UIApplication+JXDemo.m */; };
+		2E1B83ED897E7AD6060EBD0FF3739961 /* jxd_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B4D6FB4F827273A5403A67CEE3A3A4 /* jxd_nav_back@3x.png */; };
+		2E4FB0859C830D86D117356B0F2AC9CE /* JXDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF923E2ACBF59108D386A8D4D18D93 /* JXDemo-dummy.m */; };
+		2E7EE6E23028361103F82BB5DA02CADC /* UIImage+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = ED363E8E89855864E9DB8C487DE506BF /* UIImage+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F5473F5C3D9A488A21144FB07AFBDC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */; };
+		30DE0E40DEBD31DB1EE8AF8AC329E6B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242AFD4E5FCE29602FEFF3A7E3153E6A /* UIKit.framework */; };
+		331912A627330D0E3C9B4B8937C78455 /* UITextView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AED33908A72A446DEF10CCFA6E0DF5E /* UITextView+QMUI.m */; };
+		3340F74C4D33A79B81562CD632E5CCB1 /* JXDWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FD23AFD828B4CB5CFB2CC01258D948 /* JXDWebViewProgressView.m */; };
+		346F8082DFC8E7058EE3FA0727D08A4F /* UIActivityIndicatorView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8103C811176E0FB079CF9B2B116BB6 /* UIActivityIndicatorView+QMUI.m */; };
+		35B7693EA6E4524DD589626A305777A4 /* NSAttributedString+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD58A4804D2CEC410E3947DD66F0552 /* NSAttributedString+QMUI.m */; };
+		36B0A5937CD32AF3E953AA87AB81FC9F /* JXDTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0993D2A345A8BB89102DCEDA7DFEE4D6 /* JXDTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C9CF3F51AFB30331583293950E6547 /* UITextField+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 899642D4F4002F62D3BE732DB0B9CC37 /* UITextField+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B5DA84E7AACB6EE83BCD29AF068916 /* JXUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F97EB7C9B4C8C87F22D7F00A5C41ECC9 /* JXUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396F66D3EB936E65EB8E4828BC289956 /* UIScrollView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B167B18E597C2EE1E57E0E0D0ABA482 /* UIScrollView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7848140FBE9202627775CFABEE0315 /* JXUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F26056C18EF68A39A53B05C165084157 /* JXUIKit-dummy.m */; };
+		3AEF5C1AC78D55A2B5E7C8162C0A90BC /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBED61118BEB8AD4CB88BEA271CDF1B /* Mantle.framework */; };
+		3B03F20DE74600BD38A06683205FE7E0 /* NSURL+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2245756E2AB980DB4276C3906EF1725B /* NSURL+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C3606A34C43E9FEFE28C5383475AD96 /* QMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07709FDD3D17A31DAAE25812DA0FC638 /* QMUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F5316853096973FCA0A3C09283DBBE3 /* UINavigationBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C15A17B2CDF2BAB26214B69B382D19C2 /* UINavigationBar+QMUI.m */; };
+		40BCB80D15C9F47AA93EC111B635B53D /* QMUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DD23D149CB530C0173C041CB475945 /* QMUIHelper.m */; };
+		411C2427735A179870E8E32AAC8CD9D5 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = CE00B6215C6488E98287968C5584C940 /* Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		444FF37F6A35D9FA5717A93420E7F019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242AFD4E5FCE29602FEFF3A7E3153E6A /* UIKit.framework */; };
+		46B6ABA12A9C4546A20D37AD86275C0A /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CA2CE8D54640F47E504638CC183D63 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47C0948A51E450FF4024F3BAE379F3F7 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 640599DFDDC3FB668CF3AC271109E1FC /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49769B9FE5DA0F51A8E4E172C6147C04 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 190682A64B1FD69DD302975A09C5AEDC /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49C742731E48C5CE63ED46F96FBA4EF0 /* JXDCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D686F1E78176CAC91576336D00CE17 /* JXDCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B4BAF75DB5F5A87DFD4BA9412A1C102 /* UIImage+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C62B4350A3EF3F9867185CDA3EFF0 /* UIImage+QMUI.m */; };
+		4BB4AF21350FA94464B4C122242C35B1 /* QMUIConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A8DD3C4052A848B965F1E6A20761D6 /* QMUIConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA84EF2D8CFCE72E1A46048A6389D2C /* NSPointerArray+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 97098286A3F3B6647FAA5A60227ED703 /* NSPointerArray+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F60C38713C5CC6B9C57D2E8CDCCA689 /* QMUIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A35F300C185414312B53A54E84509 /* QMUIConfiguration.m */; };
+		50856E7BD10E271360370751DEE729CA /* UITabBarItem+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B12F18DA7D04995BBAB9A3094490F /* UITabBarItem+QMUI.m */; };
+		51AFA781AB84B20F906FC851FA1F03BD /* UIGestureRecognizer+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B13368BFD79C00DE6C8DBF3A7911AA61 /* UIGestureRecognizer+QMUI.m */; };
+		550F4824CCF41A5C87D08FB03949A0A7 /* UISearchBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1D70948277F0395790EAFD5B8A300F /* UISearchBar+QMUI.m */; };
+		55999E2E6F123BC134838CF8DE8A166A /* UIViewController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E61B33031CB8961585DF48AD5D5E439 /* UIViewController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571B026AF97735B80B9BDC44D82F370B /* UIInterface+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D97ED13C711DB962DCE8D8984F5C2 /* UIInterface+QMUI.m */; };
+		5A25A6468AFD3083E8E367A1109D1486 /* UIImageView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0685D1BE4CD432F2F533DF55C6CBB /* UIImageView+QMUI.m */; };
+		5B22CBC634B123F706EAD6375040AB6A /* CALayer+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C33950DA48F1B8B941669F022B195B5A /* CALayer+QMUI.m */; };
+		5B2E709D0B91CB4CC8C3D0589D3D1DF6 /* QMUILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D221AA011B936B4E8CD5041077AA1E /* QMUILogger.m */; };
+		5C083737E518372D092E7B36B8F2130C /* JXDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148C078FC980345370FE2ABAD9B981FF /* JXDWebViewController.m */; };
+		5EFC23033F0E3879B80268795EAE40B4 /* Mantle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26BBE0ED151A1041E8ACDE74EA08CB /* Mantle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624B5D4363D147517BB4AF336118CE64 /* UISearchBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 243EEE78AC7D19C7BB3880893A50500C /* UISearchBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A122ADA0BBD37F2F7B35A64AA73BDA /* UITextField+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DAEF87D9EFAD92B7E50FE76A562FBA /* UITextField+QMUI.m */; };
+		6365F46481B91498D1EA7E89B8839741 /* QMUILog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0F44CB82E9EE26E3C6A5627CD97514 /* QMUILog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6467DDFA39056A90EB63B58EFD4F7168 /* NSMethodSignature+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB85A4F99EE6C1C43F01F62737E8F9B /* NSMethodSignature+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F1C2B5C3B8E265566CFAE7CFD573BE /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F74C7A7D20D206355232B5C693880F1E /* MTLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D0B0EAE298F9F9E1276A26F5C6ED50 /* UIWindow+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFF33DB1E951ECA5A432B2A48E6939 /* UIWindow+QMUI.m */; };
+		66DEAD60B7538AE4CB81A425795CB546 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA34CD507F9D86AF738BBA9ADDD1124 /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EBD21330886AF7A557FCB8E190D1FA /* UISearchController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 527A59599E89E34433B96FCADC12A90A /* UISearchController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67393CC89E6611729DFD4C4C7141227D /* UIMenuController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF931DD3C29A46C12B0F7DE148A8D7A /* UIMenuController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A10D77172C4BC2F27A5BD178D3C600 /* QMUILab.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BBD84E64D0383175B0B0D507CFC627 /* QMUILab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E6591BC965A7151F3FAE65D9893BD0 /* JXDBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A3206EBCD7EEFA112029FCC224B0A9 /* JXDBaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4E3814255F747B283733F2D294341E /* QMUIConfigurationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DA60FE8FAF336D1670CB50506668A699 /* QMUIConfigurationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DCAE79BACD28EB202D94D929EC7216D /* NSNumber+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F3621DB0E4F57FF7C4DB75EA36B6425C /* NSNumber+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F60CD1E8F02C0AD6EED6CFC390994B8 /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B21E0C39298F01FACA8194B37ED62D9 /* MTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7012993715881C0000166424D7A0DD9A /* QMUILogNameManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8EFD266502731269BFB6E926ECBA11 /* QMUILogNameManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7571F3108EA6F9AD464308B4862F9BA9 /* NSCharacterSet+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 18386DA79CF4923B3C7A41B68ECEC314 /* NSCharacterSet+QMUI.m */; };
+		769887B4673300B7C7B08C03D64D5BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */; };
+		7C49C2B760C719C8DA420AF12140485C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D1FD207FFDA8A9E89457873AA52011 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1F06164E2192EC388FE3D63336B456 /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 167117E707B4829498A84252EE468E30 /* NSError+MTLModelException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E2B02B3EB5A98A70C6EA737C10446B8 /* QMUIWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A89002F22D3C27765179D5BA1D5AD85 /* QMUIWeakObjectContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6D7851F9CAEFD5168BEFB03F85A04D /* QMUILogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF6C53EFFD1D08B186AC769EA133E2 /* QMUILogItem.m */; };
+		813B2FEE8DB2BCB5B7B2EDBB854DF9D6 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F345E88D582E7934625F9008DDBFCEC8 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8734AF5261035964BCF7D021058F916A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352F0C1445C8613D616AF54057C02B96 /* CoreGraphics.framework */; };
+		8B644AFC7CC1F0C92B58D481712F0CAF /* Pods-JXUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E106F99CDB97698E3DDD58782B1824 /* Pods-JXUIKit_Tests-dummy.m */; };
+		8C1EAC8525E0F9FD9F53B95B3DA00F86 /* JXDBaseTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BCBB35B17B8BBF938E42CAB551444D /* JXDBaseTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2C564045E89BDE09728D417E591503 /* NSURL+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A262328578DD0A4009318B8C2E109 /* NSURL+QMUI.m */; };
+		8E5A29FED550B5C9AD40054E790CD68F /* UISwitch+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 808876289C26B2BA81B7ABF1A403F245 /* UISwitch+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9344DA7ABC6C1FAC13373165EEF57F3E /* NSURL+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2BD38DFDDCE580580EA1ADF288952E /* NSURL+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943ACC2154ECE43BB3D4F8FB680FCD6F /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = DA304EAE41BF02BF08B8151A5F7555EA /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9449EED7BF68D7227B9AA18BA87DC7F2 /* JXDBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E452E56437DD48854E9A666DEA1E8 /* JXDBaseObject.m */; };
+		94DE8A018CD8DB6D823EB1DD2285CECA /* UICollectionView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 436511699EB39BB62E922FD3DCE2184A /* UICollectionView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9742EEB3FEC0E92C80AA88BF51331F4C /* JXDCaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8E5C7947F626C59A8BDE74D77B8FDC /* JXDCaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2443DE2E1FABB461EA8CF758F49294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242AFD4E5FCE29602FEFF3A7E3153E6A /* UIKit.framework */; };
+		9A6CF9AB1E864FB859D5D7C2DA202E9D /* NSDictionary+MTLJSONKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DD08275C242C2C1BA02639816F311A /* NSDictionary+MTLJSONKeyPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0D94C46EF78164EC5092D4ED94C55E /* UITabBarItem+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 02330E10E5147DE95F87C45AA3B701E3 /* UITabBarItem+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC37C0EDBDF8D59BE0B7412A8503724 /* NSString+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5787AE4867F6D95EC5B841EC325EE25E /* NSString+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB7DCC4F85B0DDFFAB8E597C2C5577D /* JXDBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD63EB06A71D4141C96E4B3E26CA8EE0 /* JXDBaseTableCell.m */; };
+		9FBA25D1D4A5D1CA44B9FCE2C4A0B8F6 /* NSParagraphStyle+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C37DD3F51240FA3155442D95A2A341F4 /* NSParagraphStyle+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0DCD814959702EC09B4EB2F214C7030 /* UIMenuController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B02F0499E9A4F9A81CDBE71F6CADA1 /* UIMenuController+QMUI.m */; };
+		A0F803952FAD61DCA652867956BF428A /* JXDWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 163ED10CC70F541D1956BD22FB424DD8 /* JXDWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149E1D2D77F8C5CA8A429F439064F84 /* UITabBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6FEACF568CFE9865677947721E7026 /* UITabBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F4652DDB2589C6A44EADD3D2D2DD9E /* NSBundle+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C954CCFDFA5CFD02DC5BA7B35E843E1B /* NSBundle+JXDemo.m */; };
+		A43A361A5F2F1B5D125AE7C70890CDC9 /* UIImage+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1249C33638FDC471CA2CB89B8528BCFD /* UIImage+JXDemo.m */; };
+		A4D68E0BCAFA5AA50A1DB69D04EC85EF /* UIScrollView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E16B6B6229C6978B5522BA0A263E00 /* UIScrollView+QMUI.m */; };
+		A509A99D28E6875C9E248A4859C0E8FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */; };
+		A7EB8407EF73A21B2A7A1E9CE587D1E0 /* UIControl+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3E7DE1C9C6FDBC411DDFBBEF5B69B3 /* UIControl+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A87045E198C0DCA8B78D82C6D3D7DE49 /* NSObject+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 660C1BFE915F1A84ED650854B43D6D8C /* NSObject+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB393ED40C103671C1D4A0331E91E03E /* UINavigationController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B37C5617BE21A5596C09927D0D6EB5 /* UINavigationController+QMUI.m */; };
+		ADDC2FDEA9213CF3A848FCEACFA9E199 /* UIView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C5B51E46FDC36DA08220BACE9DCA /* UIView+QMUI.m */; };
+		AEDB7A2790FA6D4C3D03EB62D827417E /* NSDictionary+MTLMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B71017CACA1AB1C8CA5145E963DAC370 /* NSDictionary+MTLMappingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01FE3CEEA9C73EF1D6BD1F597040EEA /* QMUILogNameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D026BFFE71596E62C3197A1229982CE2 /* QMUILogNameManager.m */; };
+		B2897A33534568BBA26B7B06D573E638 /* UIBezierPath+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A74100A17908E97DB21A1B97A8D40 /* UIBezierPath+QMUI.m */; };
+		B62C394D681E53A13C861F574DBB5EA4 /* QMUIWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F4D04C27939BCDA6EB7F126ACE060 /* QMUIWeakObjectContainer.m */; };
+		B732DEDB5EDB42A934D4094C9048BE3D /* JXDCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB41C5E11E4773AA9381490B151F31C7 /* JXDCaseViewController.m */; };
+		B91EE01BDD3E6763D72DF44E364ED025 /* UIButton+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A26E8F388D946575D717F12320D89B74 /* UIButton+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9AC3A847226F5B55028E988F271F9A4 /* NSMethodSignature+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 81147C98BA0C30F08AC19594425D38B7 /* NSMethodSignature+QMUI.m */; };
+		BB367FFC8C18C415990D4FFE27A67307 /* UITraitCollection+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DBECB90129A0B2C1AB4B21D01A7AA /* UITraitCollection+QMUI.m */; };
+		BC407CD621CD7ED6BC654153146F966C /* Pods-JXUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD5320D1D58FBCF95AFDF807992A0B7 /* Pods-JXUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7B9254EFEF9F26E36F368618A18998 /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA5D9604742F2B9193C2EB7093D766 /* MTLTransformerErrorHandling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF0DE3B90BCC2DE32CF468FF290AA715 /* JXUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8022A495BF9D2BC9FF91443CD4DBB2C0 /* JXUILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1BE5C717C794E873E4E29873938F9F /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DBAAB00F4DA2921307E27CD028E341 /* NSDictionary+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1665CE4D3CB805B703826F8AB58254D /* UIImageView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DA94FA3DE8A0FF1F7A96C80957BD65 /* UIImageView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1858AAD65C09289D6E5FA59615E110D /* NSURL+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDD67FB548D95DF88DC0F2539EB242 /* NSURL+JXDemo.m */; };
+		C35214AD68D9663FDA041AF6F17A78D7 /* UIBarItem+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB3C654AECFC021B336134B1AD6273 /* UIBarItem+QMUI.m */; };
+		C444D5E49689B7FCCC403ACEB16904F6 /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDCC5ED577CCFC4736B316F8B545D31 /* MTLJSONAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C572A1FEB1ADF93734CD588147DE4127 /* UITableViewCell+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEADB2A0D2F01C48021F7AD24842B0F /* UITableViewCell+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5B2BC11D173374BB48543CF366DAEA7 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 490994D4FE9896587925E45C00974C66 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C602F3C54234382850F885AFC760E3B8 /* UISearchController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AC35EDC5E263B3A7A62195F20E818 /* UISearchController+QMUI.m */; };
+		C64B47ADABED55B3C93BAC050BADBCD5 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C0EC192AD7857B101B6AD935CEE10 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C6E3734920B801C23B3FEA43A3898BFD /* QMUICommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C04200AA5189DF5A948C287CEAFBBFF /* QMUICommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D5C91AF1D88F8BD8D14B7DBF14B67B /* UITableView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DE324FE815CA02D99CC677C9818994B7 /* UITableView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97375D4ABB3EFF8F7AC5FB15D94154E /* JXDCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B42819A8FB84E1EB3261567CC760F432 /* JXDCase.m */; };
+		D3132171AF611656C5890BBBEA0DEE51 /* JXDCaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446527ADD5B520BAD2FBB05B8EC1CB1 /* JXDCaseCell.m */; };
+		D3BA1FDFD945A1431803501683839DC5 /* UITableView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0D0522F68BCE13E8D0A1F49457369 /* UITableView+QMUI.m */; };
+		D4C2B0B2ED57D4604F42FD9D89FB8961 /* UIView+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1A62279EFE6A04E127CB6AFB17241A /* UIView+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D56316DC80D97A401827640E7FB54587 /* JXUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B949B7F6404047509D541AF7C8B5C8 /* JXUIButton.m */; };
+		D7346A231933182417B7CC46951701B1 /* JXDCaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FF72A3CC9FF9AD7BB5508DD3DDAA1C /* JXDCaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7926711D707D9624914FC9DCF1A5010 /* UITabBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B405FAC9700BA17910CE19CC80F84F /* UITabBar+QMUI.m */; };
+		D875AA367F93DD2AC5D46AE7AC3549FD /* UIControl+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E380DFB1F2215F2AAA15513E42A9E886 /* UIControl+QMUI.m */; };
+		D9246FB11D96EF3368E0AFCEF88A4D93 /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 302C168D0C911DFD9F41F4883E026E6A /* NSArray+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96A48A43EEB1E58EC65C6CEBAB336AE /* UINavigationBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFD62C2818D911344A2CB8BBB1F4589 /* UINavigationBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB140B86F26C7EA42CA8A31F8781FB05 /* Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F374097C1212F9191EFE1EE79C6A6359 /* Mantle-dummy.m */; };
+		DCA16435D4783A6D499204E2DA7C4A12 /* NSBundle+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0BD25F80F0AB7D95BE632F06C0B879 /* NSBundle+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCCFFF5CF29EAD980B56D4178E2D734C /* UIWindow+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3F4949602AF12F62E528D5817D6C29 /* UIWindow+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E013D3D29FC33F8AEAA17B53F832005C /* UIColor+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318473762DD22AA27CD224AE4998C67 /* UIColor+QMUI.m */; };
+		E0EBDBD5BA58E1FD6B30B931431E04BE /* MTLTransformerErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD326EEDAA90C3D3685ACF0A331EB17 /* MTLTransformerErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E107171982B2181FD7CD780FA3AD1ACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */; };
+		E17A27BAA7F060DE11B9FCC93E011A76 /* JXDBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A8C05FED9BE7E70A4CBD8EFF17E3F0 /* JXDBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A71CA9FED006BB69DC35A863E173CF /* UIButton+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F7296F01D0D4D4FD61860662DF2DC3B7 /* UIButton+QMUI.m */; };
+		E34266595FFDEE57E7726371410A1C5D /* JXDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30897AA43323FFDD366A499F9E889065 /* JXDemo.bundle */; };
+		E3EDCD843DB04CD0B608B2183173579D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D5D57657BB8B44A20069DD092CC244 /* Photos.framework */; };
+		E4A6AA0FA237B9C4FEF026459499BC7B /* UIColor+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A20573CABEEFB36EBBCA20FB0BB798 /* UIColor+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E2ED2D4BA6F81D1E05C991E6D7A0C0 /* UIInterface+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1A776C615C4560124495CAFA737492 /* UIInterface+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E501AD732492BEFAAF1B1E60619E5789 /* UITableViewCell+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EEBFB3F3AE72803794E9C6FA52AC28 /* UITableViewCell+QMUI.m */; };
+		E507322BECDD64B7E441728D3283232E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D53F1A224113742A67335ADEEE6503 /* WebKit.framework */; };
+		E52C34101283D30289F0A70A2360B688 /* UIFont+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22547CEAE9FE8AE0EBB4D0462A2DC7D2 /* UIFont+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E568D21C1DF3BEBC717155638700D358 /* QMUIRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 9871F8587869C0F2D12EB16C0839021A /* QMUIRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8FE54FDBDCC9328A9FE984E4612130D /* NSString+JXDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD82E60BF4F3A9AFA0B19CD9315537A /* NSString+JXDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9482974893BDC04BE64BED910003402 /* UILabel+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F90D5EDC65A6C1CE24C5031181FB14 /* UILabel+QMUI.m */; };
+		EA5BCFF3AA58A150040BB786D70A10C8 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A27079804176EA4A65AA83CD89A93E /* metamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EAF667EC2E72A83D45ADF169546D0768 /* JXDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B80333A79869410251BBC4EE3C1C56 /* JXDBaseViewController.m */; };
+		ECA85210A7EE576EC73D80C74DF88894 /* jxd_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06676CA434B1E9468CAF37052F703C2D /* jxd_nav_back@2x.png */; };
+		ED19CD5C2E68FC948484AFE0A057A969 /* UIView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D37E8BE2678F2F636A528C6EB584DCC /* UIView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE90443281AA0463F5C459A75B2FF19D /* NSObject+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5337A8ED30893B679EB7642A223D00 /* NSObject+QMUI.m */; };
+		F059D7DFE4F7954A5BFB2669713E7885 /* QMUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B0C2F27A5DD7B56231711FF38CC88 /* QMUIKit-dummy.m */; };
+		F38FA65F10D6A1B72BA7FC5849F6418C /* UIWindow+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A44F5EC638DE450ADFBE725B804769 /* UIWindow+JXDemo.m */; };
+		F3E46035A80575B5F9D528D1CD7698BD /* UITextInputTraits+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0957F9285D6B3A37DB353E379E336F71 /* UITextInputTraits+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4472521A28521815959A9802725C724 /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F647DF6F4F5D685B0C5D96027F83E42 /* NSDictionary+MTLJSONKeyPath.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F56AB0BDC3C06D8C57F35B5EFC276B63 /* Pods-JXUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBFEBC410832FDBE44EF625962D48B5 /* Pods-JXUIKit_Example-dummy.m */; };
+		F776D716F41D713223DEBC713818440C /* NSNumber+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BE9D2293E9DA6854F1C9B60CA35F2 /* NSNumber+QMUI.m */; };
+		FB02E9855DE17F17B1E645EFE9E98A56 /* UIBarItem+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB5D87EDF8F798F33AD1DBA7B5CC644 /* UIBarItem+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB36234A5A58599C2FB31349D576282F /* UINavigationController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2A2135DF2C00F564FA83CEA9185202 /* UINavigationController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4DA1241F62E07435ABCBA261C1A1AD /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3696D484F1096B371A67AA280A732501 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FD8DECCDBF7654977D1F0431673AAA42 /* NSString+JXDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E84FF30297978A73AE8613BCE5F019B /* NSString+JXDemo.m */; };
+		FDF7EFFFA576EE5426AED761616BDE5F /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7EC96D08CBC8384EDF4EFDDD8FDCF3 /* MTLModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9E079D55A6A2752489FC3889167E3F /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 93732FA93D44F9256C7BBC41E25BFF37 /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E682A53F77F442A3DE3634F2767617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18B877707EFC0BCE3AC0E146CF628AC;
+			remoteInfo = JXDemo;
+		};
+		310EF5CA74A559E060DA816CB756813E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8118C917DF24754018AF262B5FF77F;
+			remoteInfo = JXUIKit;
+		};
+		685A4C47801B14A32ED7374BDE50CC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740124B3EE5D14F0E8AF4C9163C297A8;
+			remoteInfo = QMUIKit;
+		};
+		8A0DE6886AB98405CCF96D329C8FA398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CCF1D9F019FFC6546DA481B71A2C4E;
+			remoteInfo = Mantle;
+		};
+		91B1BFD3AA2DC415605A2E43B77FD6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CCF1D9F019FFC6546DA481B71A2C4E;
+			remoteInfo = Mantle;
+		};
+		91F88A3FB0C13FA81144288B0DBFBC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740124B3EE5D14F0E8AF4C9163C297A8;
+			remoteInfo = QMUIKit;
+		};
+		DD97E04F87AEF79B0FD9D5C1324C094A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1049D7F5364BF52EE38B2A8BDBB9C35;
+			remoteInfo = "Pods-JXUIKit_Example";
+		};
+		DEC0C3E31764A02086CC0008F1669925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51CF4E97FB3098468519EB3488D48DD3;
+			remoteInfo = "JXDemo-JXDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C5BA1CBB75EAD4A231C62BF86E4F51 /* JXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXUIKit.framework; path = JXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02330E10E5147DE95F87C45AA3B701E3 /* UITabBarItem+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITabBarItem+QMUI.h"; sourceTree = "<group>"; };
+		02BA5D9604742F2B9193C2EB7093D766 /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLTransformerErrorHandling.m; path = Mantle/MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		02D53F1A224113742A67335ADEEE6503 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		0318473762DD22AA27CD224AE4998C67 /* UIColor+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIColor+QMUI.m"; sourceTree = "<group>"; };
+		06676CA434B1E9468CAF37052F703C2D /* jxd_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jxd_nav_back@2x.png"; path = "JXDemo/Assets/jxd_nav_back@2x.png"; sourceTree = "<group>"; };
+		0670F1B909776EE3F93323A61AFA002F /* QMUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QMUIKit-Info.plist"; sourceTree = "<group>"; };
+		06B02F0499E9A4F9A81CDBE71F6CADA1 /* UIMenuController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIMenuController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIMenuController+QMUI.m"; sourceTree = "<group>"; };
+		06BCBB35B17B8BBF938E42CAB551444D /* JXDBaseTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDBaseTableCell.h; path = JXDemo/Classes/JXDBaseTableCell.h; sourceTree = "<group>"; };
+		07709FDD3D17A31DAAE25812DA0FC638 /* QMUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIKit.h; path = QMUIKit/QMUIKit.h; sourceTree = "<group>"; };
+		08A16B178DA9C841B2FCA523424A3AFF /* QMUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUIKit-prefix.pch"; sourceTree = "<group>"; };
+		0957F9285D6B3A37DB353E379E336F71 /* UITextInputTraits+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextInputTraits+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITextInputTraits+QMUI.h"; sourceTree = "<group>"; };
+		0993D2A345A8BB89102DCEDA7DFEE4D6 /* JXDTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDTableViewController.h; path = JXDemo/Classes/JXDTableViewController.h; sourceTree = "<group>"; };
+		09B405FAC9700BA17910CE19CC80F84F /* UITabBar+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITabBar+QMUI.m"; sourceTree = "<group>"; };
+		0C8E5C7947F626C59A8BDE74D77B8FDC /* JXDCaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDCaseViewController.h; path = JXDemo/Classes/JXDCaseViewController.h; sourceTree = "<group>"; };
+		0E2BD38DFDDCE580580EA1ADF288952E /* NSURL+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+JXDemo.h"; path = "JXDemo/Classes/NSURL+JXDemo.h"; sourceTree = "<group>"; };
+		0E8EFD266502731269BFB6E926ECBA11 /* QMUILogNameManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILogNameManager.h; path = QMUIKit/QMUIComponents/QMUILog/QMUILogNameManager.h; sourceTree = "<group>"; };
+		0EFB3C654AECFC021B336134B1AD6273 /* UIBarItem+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarItem+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIBarItem+QMUI.m"; sourceTree = "<group>"; };
+		1249C33638FDC471CA2CB89B8528BCFD /* UIImage+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JXDemo.m"; path = "JXDemo/Classes/UIImage+JXDemo.m"; sourceTree = "<group>"; };
+		14463642F985C4AEB02A075A3FBF24ED /* Mantle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mantle.modulemap; sourceTree = "<group>"; };
+		148C078FC980345370FE2ABAD9B981FF /* JXDWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDWebViewController.m; path = JXDemo/Classes/JXDWebViewController.m; sourceTree = "<group>"; };
+		14A20573CABEEFB36EBBCA20FB0BB798 /* UIColor+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIColor+QMUI.h"; sourceTree = "<group>"; };
+		14D686F1E78176CAC91576336D00CE17 /* JXDCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDCase.h; path = JXDemo/Classes/JXDCase.h; sourceTree = "<group>"; };
+		163ED10CC70F541D1956BD22FB424DD8 /* JXDWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDWebViewProgressView.h; path = JXDemo/Classes/JXDWebViewProgressView.h; sourceTree = "<group>"; };
+		167117E707B4829498A84252EE468E30 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		168F5135748E65CB2ABF5AA6F2298FA4 /* JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDemo.h; path = JXDemo/Classes/JXDemo.h; sourceTree = "<group>"; };
+		18386DA79CF4923B3C7A41B68ECEC314 /* NSCharacterSet+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSCharacterSet+QMUI.m"; sourceTree = "<group>"; };
+		190682A64B1FD69DD302975A09C5AEDC /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		1B0F44CB82E9EE26E3C6A5627CD97514 /* QMUILog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILog.h; path = QMUIKit/QMUIComponents/QMUILog/QMUILog.h; sourceTree = "<group>"; };
+		1C04200AA5189DF5A948C287CEAFBBFF /* QMUICommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICommonDefines.h; path = QMUIKit/QMUICore/QMUICommonDefines.h; sourceTree = "<group>"; };
+		1C6E9109BAFEB02C81E33C6DC2556521 /* UITextView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITextView+QMUI.h"; sourceTree = "<group>"; };
+		1DCF6C53EFFD1D08B186AC769EA133E2 /* QMUILogItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILogItem.m; path = QMUIKit/QMUIComponents/QMUILog/QMUILogItem.m; sourceTree = "<group>"; };
+		1E61B33031CB8961585DF48AD5D5E439 /* UIViewController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIViewController+QMUI.h"; sourceTree = "<group>"; };
+		1EB5D87EDF8F798F33AD1DBA7B5CC644 /* UIBarItem+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIBarItem+QMUI.h"; sourceTree = "<group>"; };
+		1EB85A4F99EE6C1C43F01F62737E8F9B /* NSMethodSignature+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSMethodSignature+QMUI.h"; sourceTree = "<group>"; };
+		1F6C0EC192AD7857B101B6AD935CEE10 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		205254DF80FDED68C81FA379385FB5DA /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		2084E2292F89D20958A08EE2E775D559 /* Pods-JXUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21B2279D2295CCAC9F8DF7D72571D099 /* UIImage+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JXDemo.h"; path = "JXDemo/Classes/UIImage+JXDemo.h"; sourceTree = "<group>"; };
+		21B584EFBA0C0C09EA1E734312D92F4A /* Pods-JXUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		21BD94F47083D820AB6CC33B3EB1973C /* UICollectionView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UICollectionView+QMUI.m"; sourceTree = "<group>"; };
+		21DBAAB00F4DA2921307E27CD028E341 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		2245756E2AB980DB4276C3906EF1725B /* NSURL+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSURL+QMUI.h"; sourceTree = "<group>"; };
+		22547CEAE9FE8AE0EBB4D0462A2DC7D2 /* UIFont+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIFont+QMUI.h"; sourceTree = "<group>"; };
+		22DD08275C242C2C1BA02639816F311A /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLJSONKeyPath.h"; path = "Mantle/NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		242AFD4E5FCE29602FEFF3A7E3153E6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		243EEE78AC7D19C7BB3880893A50500C /* UISearchBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UISearchBar+QMUI.h"; sourceTree = "<group>"; };
+		257A35F300C185414312B53A54E84509 /* QMUIConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIConfiguration.m; path = QMUIKit/QMUICore/QMUIConfiguration.m; sourceTree = "<group>"; };
+		269E452E56437DD48854E9A666DEA1E8 /* JXDBaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDBaseObject.m; path = JXDemo/Classes/JXDBaseObject.m; sourceTree = "<group>"; };
+		26A27079804176EA4A65AA83CD89A93E /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		26BBD84E64D0383175B0B0D507CFC627 /* QMUILab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILab.h; path = QMUIKit/QMUICore/QMUILab.h; sourceTree = "<group>"; };
+		272DD4745BDD9D450923E0B4DD47FBF6 /* JXUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXUIKit-prefix.pch"; sourceTree = "<group>"; };
+		2A1A62279EFE6A04E127CB6AFB17241A /* UIView+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JXDemo.h"; path = "JXDemo/Classes/UIView+JXDemo.h"; sourceTree = "<group>"; };
+		2E75EE67CAADBB97E21331E1022DCEF4 /* Pods-JXUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		302C168D0C911DFD9F41F4883E026E6A /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		30897AA43323FFDD366A499F9E889065 /* JXDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JXDemo.bundle; path = "JXDemo-JXDemo.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B949B7F6404047509D541AF7C8B5C8 /* JXUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JXUIButton.m; sourceTree = "<group>"; };
+		32DAEF87D9EFAD92B7E50FE76A562FBA /* UITextField+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITextField+QMUI.m"; sourceTree = "<group>"; };
+		352F0C1445C8613D616AF54057C02B96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		35B4D6FB4F827273A5403A67CEE3A3A4 /* jxd_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jxd_nav_back@3x.png"; path = "JXDemo/Assets/jxd_nav_back@3x.png"; sourceTree = "<group>"; };
+		35EEBFB3F3AE72803794E9C6FA52AC28 /* UITableViewCell+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITableViewCell+QMUI.m"; sourceTree = "<group>"; };
+		3683A8AA6BA3F40E44D782203FCB9AE8 /* QMUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMUIKit.xcconfig; sourceTree = "<group>"; };
+		3696D484F1096B371A67AA280A732501 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		3A8103C811176E0FB079CF9B2B116BB6 /* UIActivityIndicatorView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIActivityIndicatorView+QMUI.m"; sourceTree = "<group>"; };
+		3AEADB2A0D2F01C48021F7AD24842B0F /* UITableViewCell+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h"; sourceTree = "<group>"; };
+		3B1B12F18DA7D04995BBAB9A3094490F /* UITabBarItem+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITabBarItem+QMUI.m"; sourceTree = "<group>"; };
+		3C2BE9D2293E9DA6854F1C9B60CA35F2 /* NSNumber+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSNumber+QMUI.m"; sourceTree = "<group>"; };
+		3C69B710FC9B63086FCCFAC25DE91B04 /* JXUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXUIKit.modulemap; sourceTree = "<group>"; };
+		3EB328386AB36DC1ABDC3A2C2BF009F4 /* NSArray+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSArray+QMUI.m"; sourceTree = "<group>"; };
+		3F26BBE0ED151A1041E8ACDE74EA08CB /* Mantle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-umbrella.h"; sourceTree = "<group>"; };
+		404234D242BBC3330C98B7929F7A6D5F /* UIViewController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIViewController+QMUI.m"; sourceTree = "<group>"; };
+		4177A5D764326E41DFB7BB07AA2A9BE6 /* NSArray+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSArray+QMUI.h"; sourceTree = "<group>"; };
+		42A8C05FED9BE7E70A4CBD8EFF17E3F0 /* JXDBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDBaseViewController.h; path = JXDemo/Classes/JXDBaseViewController.h; sourceTree = "<group>"; };
+		436511699EB39BB62E922FD3DCE2184A /* UICollectionView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UICollectionView+QMUI.h"; sourceTree = "<group>"; };
+		44DA94FA3DE8A0FF1F7A96C80957BD65 /* UIImageView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIImageView+QMUI.h"; sourceTree = "<group>"; };
+		45687C74F2B96C4E97B9ACDD76556423 /* JXDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXDemo.framework; path = JXDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4790D16E124BB0C3B0FFB4E48E84894C /* Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantle.xcconfig; sourceTree = "<group>"; };
+		490994D4FE9896587925E45C00974C66 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		49A3206EBCD7EEFA112029FCC224B0A9 /* JXDBaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDBaseObject.h; path = JXDemo/Classes/JXDBaseObject.h; sourceTree = "<group>"; };
+		4ACCDDB8EB54887AE37B785FBFE3BC6C /* Pods-JXUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		4B0BD25F80F0AB7D95BE632F06C0B879 /* NSBundle+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+JXDemo.h"; path = "JXDemo/Classes/NSBundle+JXDemo.h"; sourceTree = "<group>"; };
+		4B167B18E597C2EE1E57E0E0D0ABA482 /* UIScrollView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIScrollView+QMUI.h"; sourceTree = "<group>"; };
+		4B21E0C39298F01FACA8194B37ED62D9 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		4C5D3854C0A0F5CF13C9BD1539417B44 /* JXDTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDTableViewController.m; path = JXDemo/Classes/JXDTableViewController.m; sourceTree = "<group>"; };
+		4DB0D0522F68BCE13E8D0A1F49457369 /* UITableView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITableView+QMUI.m"; sourceTree = "<group>"; };
+		4DBED61118BEB8AD4CB88BEA271CDF1B /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD2D53DE65F3853954DD5D884C6C244 /* JXDWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDWebViewController.h; path = JXDemo/Classes/JXDWebViewController.h; sourceTree = "<group>"; };
+		4F10654491A2D81544130BA829397FCC /* JXDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXDemo-Info.plist"; sourceTree = "<group>"; };
+		4FEF923E2ACBF59108D386A8D4D18D93 /* JXDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXDemo-dummy.m"; sourceTree = "<group>"; };
+		4FF24AFC949252F860A9DC4F6CDDB479 /* Pods-JXUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50A8DD3C4052A848B965F1E6A20761D6 /* QMUIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIConfiguration.h; path = QMUIKit/QMUICore/QMUIConfiguration.h; sourceTree = "<group>"; };
+		5101CD1EF3FAEDC91B033E81095DBF54 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		517CCCAE83BC1839C90EF4D87C9EC719 /* QMUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QMUIKit.modulemap; sourceTree = "<group>"; };
+		518DD1730178986854AA9CA5DBA93D86 /* Pods-JXUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		51B030D45247C66E2FA50E7965B94A20 /* JXUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXUIKit.xcconfig; sourceTree = "<group>"; };
+		527A59599E89E34433B96FCADC12A90A /* UISearchController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UISearchController+QMUI.h"; sourceTree = "<group>"; };
+		541B3900ACE5D84C6426F1208F39196B /* Pods-JXUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5549C9070BDFDDC02ECEFEC3C71CBC50 /* QMUIRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIRuntime.m; path = QMUIKit/QMUICore/QMUIRuntime.m; sourceTree = "<group>"; };
+		5566CDEEB14128E6186042A0F9AE37A8 /* UITextInputTraits+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextInputTraits+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITextInputTraits+QMUI.m"; sourceTree = "<group>"; };
+		557ECC461EE9FD502DB94E1CBB05AE47 /* JXDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXDemo-prefix.pch"; sourceTree = "<group>"; };
+		5591C7EC65876D8324A42AD174B756DA /* NSParagraphStyle+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSParagraphStyle+QMUI.m"; sourceTree = "<group>"; };
+		55B146C42A35655BCD7C55F09D9C911C /* UIBezierPath+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIBezierPath+QMUI.h"; sourceTree = "<group>"; };
+		5748D719B80DABD2406031E242C03BA6 /* NSString+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSString+QMUI.m"; sourceTree = "<group>"; };
+		576D99244F09B3AE4F91D572C69069EC /* UIGestureRecognizer+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIGestureRecognizer+QMUI.h"; sourceTree = "<group>"; };
+		5787AE4867F6D95EC5B841EC325EE25E /* NSString+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSString+QMUI.h"; sourceTree = "<group>"; };
+		5B37B491D73BD5AB3DB966060DD460A7 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		5D6BF84360F66CA90E40BD8918F01E21 /* Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-prefix.pch"; sourceTree = "<group>"; };
+		5F647DF6F4F5D685B0C5D96027F83E42 /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLJSONKeyPath.m"; path = "Mantle/NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		607DF5EBC7D8F61F293FB9CA28FCF1CA /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
+		615A8513A52F80FEAACAB73EFD44A08C /* JXUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXUIKit-umbrella.h"; sourceTree = "<group>"; };
+		640599DFDDC3FB668CF3AC271109E1FC /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		660C1BFE915F1A84ED650854B43D6D8C /* NSObject+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSObject+QMUI.h"; sourceTree = "<group>"; };
+		68D11DE655ADA6EFEEE6A1EFD438CE15 /* JXDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXDemo-umbrella.h"; sourceTree = "<group>"; };
+		6AED33908A72A446DEF10CCFA6E0DF5E /* UITextView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITextView+QMUI.m"; sourceTree = "<group>"; };
+		6BCD3E077861DE8917A0FFFBC6BD96CF /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mantle.framework; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFD62C2818D911344A2CB8BBB1F4589 /* UINavigationBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UINavigationBar+QMUI.h"; sourceTree = "<group>"; };
+		73FD23AFD828B4CB5CFB2CC01258D948 /* JXDWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDWebViewProgressView.m; path = JXDemo/Classes/JXDWebViewProgressView.m; sourceTree = "<group>"; };
+		7446527ADD5B520BAD2FBB05B8EC1CB1 /* JXDCaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDCaseCell.m; path = JXDemo/Classes/JXDCaseCell.m; sourceTree = "<group>"; };
+		763AC35EDC5E263B3A7A62195F20E818 /* UISearchController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UISearchController+QMUI.m"; sourceTree = "<group>"; };
+		77DD23D149CB530C0173C041CB475945 /* QMUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIHelper.m; path = QMUIKit/QMUICore/QMUIHelper.m; sourceTree = "<group>"; };
+		78A44F5EC638DE450ADFBE725B804769 /* UIWindow+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+JXDemo.m"; path = "JXDemo/Classes/UIWindow+JXDemo.m"; sourceTree = "<group>"; };
+		7A89002F22D3C27765179D5BA1D5AD85 /* QMUIWeakObjectContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIWeakObjectContainer.h; path = QMUIKit/QMUIComponents/QMUIWeakObjectContainer.h; sourceTree = "<group>"; };
+		7A9F8C727614D57E0640FB6A1EC95105 /* JXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXUIKit-Info.plist"; sourceTree = "<group>"; };
+		7C5337A8ED30893B679EB7642A223D00 /* NSObject+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSObject+QMUI.m"; sourceTree = "<group>"; };
+		7DD82E60BF4F3A9AFA0B19CD9315537A /* NSString+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JXDemo.h"; path = "JXDemo/Classes/NSString+JXDemo.h"; sourceTree = "<group>"; };
+		7E84FF30297978A73AE8613BCE5F019B /* NSString+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JXDemo.m"; path = "JXDemo/Classes/NSString+JXDemo.m"; sourceTree = "<group>"; };
+		8022A495BF9D2BC9FF91443CD4DBB2C0 /* JXUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JXUILabel.h; sourceTree = "<group>"; };
+		808876289C26B2BA81B7ABF1A403F245 /* UISwitch+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+QMUI.h"; path = "QMUIKit/UIKitExtensions/UISwitch+QMUI.h"; sourceTree = "<group>"; };
+		80BF15E75E0C315541F57425DA3204C1 /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		81147C98BA0C30F08AC19594425D38B7 /* NSMethodSignature+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSMethodSignature+QMUI.m"; sourceTree = "<group>"; };
+		815EBDF16FCAE0FE5C5CB8F78C1FB0D0 /* QMUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIHelper.h; path = QMUIKit/QMUICore/QMUIHelper.h; sourceTree = "<group>"; };
+		8596B7A0C5A3E188061E9EDDAB573FCE /* QMUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMUIKit.framework; path = QMUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FF72A3CC9FF9AD7BB5508DD3DDAA1C /* JXDCaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXDCaseCell.h; path = JXDemo/Classes/JXDCaseCell.h; sourceTree = "<group>"; };
+		882408A4E013C9C41F483F2A0900317C /* Pods-JXUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		88FCD4BB672D7CD844EC9F284EF2FE55 /* Mantle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mantle-Info.plist"; sourceTree = "<group>"; };
+		899642D4F4002F62D3BE732DB0B9CC37 /* UITextField+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITextField+QMUI.h"; sourceTree = "<group>"; };
+		8A7783BBD11C96152D03ABFCD2B401FF /* Pods-JXUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C2F073971E8C6432AC379F7D855A927 /* NSAttributedString+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSAttributedString+QMUI.h"; sourceTree = "<group>"; };
+		8DE0685D1BE4CD432F2F533DF55C6CBB /* UIImageView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIImageView+QMUI.m"; sourceTree = "<group>"; };
+		9127985ABD7049E9842E2E4C59BCCC47 /* Pods-JXUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		925F4D04C27939BCDA6EB7F126ACE060 /* QMUIWeakObjectContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIWeakObjectContainer.m; path = QMUIKit/QMUIComponents/QMUIWeakObjectContainer.m; sourceTree = "<group>"; };
+		93732FA93D44F9256C7BBC41E25BFF37 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		93D9981A3CEED3C2AAB90AA334D17713 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		951A5D0164F67D6C0F428A090A6ABB9F /* JXDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXDemo.xcconfig; sourceTree = "<group>"; };
+		964A74100A17908E97DB21A1B97A8D40 /* UIBezierPath+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIBezierPath+QMUI.m"; sourceTree = "<group>"; };
+		97098286A3F3B6647FAA5A60227ED703 /* NSPointerArray+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPointerArray+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSPointerArray+QMUI.h"; sourceTree = "<group>"; };
+		9843B95C4CC212CE264FE90E5EA198AA /* JXUILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JXUILabel.m; sourceTree = "<group>"; };
+		9871F8587869C0F2D12EB16C0839021A /* QMUIRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIRuntime.h; path = QMUIKit/QMUICore/QMUIRuntime.h; sourceTree = "<group>"; };
+		989CCF84FE9575C0BE043783418819DB /* Pods-JXUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98E4AF6DEA48A6A55006613A8CAC291B /* QMUICore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICore.h; path = QMUIKit/QMUICore/QMUICore.h; sourceTree = "<group>"; };
+		9A1D97ED13C711DB962DCE8D8984F5C2 /* UIInterface+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIInterface+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIInterface+QMUI.m"; sourceTree = "<group>"; };
+		9A973ACAD5DA1B49AF64C64DF458D485 /* UIWindow+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+JXDemo.h"; path = "JXDemo/Classes/UIWindow+JXDemo.h"; sourceTree = "<group>"; };
+		9AD326EEDAA90C3D3685ACF0A331EB17 /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLTransformerErrorHandling.h; path = Mantle/MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		9D37E8BE2678F2F636A528C6EB584DCC /* UIView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIView+QMUI.h"; sourceTree = "<group>"; };
+		9D5C62B4350A3EF3F9867185CDA3EFF0 /* UIImage+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIImage+QMUI.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD5320D1D58FBCF95AFDF807992A0B7 /* Pods-JXUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A26E8F388D946575D717F12320D89B74 /* UIButton+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIButton+QMUI.h"; sourceTree = "<group>"; };
+		A2EF966D827E99D06F6BDB58DB9F2CA3 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		A38167D38F2BB0FB7E7E94C1F3104D10 /* Pods-JXUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		A7CA2CE8D54640F47E504638CC183D63 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		AA6A262328578DD0A4009318B8C2E109 /* NSURL+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSURL+QMUI.m"; sourceTree = "<group>"; };
+		AAD58A4804D2CEC410E3947DD66F0552 /* NSAttributedString+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSAttributedString+QMUI.m"; sourceTree = "<group>"; };
+		ACA34CD507F9D86AF738BBA9ADDD1124 /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		AD63EB06A71D4141C96E4B3E26CA8EE0 /* JXDBaseTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDBaseTableCell.m; path = JXDemo/Classes/JXDBaseTableCell.m; sourceTree = "<group>"; };
+		AFBFEBC410832FDBE44EF625962D48B5 /* Pods-JXUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		B13368BFD79C00DE6C8DBF3A7911AA61 /* UIGestureRecognizer+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIGestureRecognizer+QMUI.m"; sourceTree = "<group>"; };
+		B1D221AA011B936B4E8CD5041077AA1E /* QMUILogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILogger.m; path = QMUIKit/QMUIComponents/QMUILog/QMUILogger.m; sourceTree = "<group>"; };
+		B2F90D5EDC65A6C1CE24C5031181FB14 /* UILabel+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+QMUI.m"; path = "QMUIKit/UIKitExtensions/UILabel+QMUI.m"; sourceTree = "<group>"; };
+		B42819A8FB84E1EB3261567CC760F432 /* JXDCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDCase.m; path = JXDemo/Classes/JXDCase.m; sourceTree = "<group>"; };
+		B5D5D57657BB8B44A20069DD092CC244 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		B71017CACA1AB1C8CA5145E963DAC370 /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLMappingAdditions.h"; path = "Mantle/NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		B9526DFB5FC3B69771443B92F4663349 /* JXDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXDemo.modulemap; sourceTree = "<group>"; };
+		BAF931DD3C29A46C12B0F7DE148A8D7A /* UIMenuController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIMenuController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIMenuController+QMUI.h"; sourceTree = "<group>"; };
+		BB41C5E11E4773AA9381490B151F31C7 /* JXDCaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDCaseViewController.m; path = JXDemo/Classes/JXDCaseViewController.m; sourceTree = "<group>"; };
+		BC6BE1CC2D16DBAF55D94E7D5EF71923 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD3F4949602AF12F62E528D5817D6C29 /* UIWindow+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIWindow+QMUI.h"; sourceTree = "<group>"; };
+		BF6D937E1B33E140DA1BE0E770BFBD10 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		C06E37865ED9CF0491C8B840D8951FE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C15A17B2CDF2BAB26214B69B382D19C2 /* UINavigationBar+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+QMUI.m"; path = "QMUIKit/UIKitExtensions/UINavigationBar+QMUI.m"; sourceTree = "<group>"; };
+		C1D1FD207FFDA8A9E89457873AA52011 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		C33950DA48F1B8B941669F022B195B5A /* CALayer+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+QMUI.m"; path = "QMUIKit/UIKitExtensions/CALayer+QMUI.m"; sourceTree = "<group>"; };
+		C37DD3F51240FA3155442D95A2A341F4 /* NSParagraphStyle+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSParagraphStyle+QMUI.h"; sourceTree = "<group>"; };
+		C60FECA9FE91044D5F7DF6F1066E6C50 /* UISwitch+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+QMUI.m"; path = "QMUIKit/UIKitExtensions/UISwitch+QMUI.m"; sourceTree = "<group>"; };
+		C7B37C5617BE21A5596C09927D0D6EB5 /* UINavigationController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UINavigationController+QMUI.m"; sourceTree = "<group>"; };
+		C954CCFDFA5CFD02DC5BA7B35E843E1B /* NSBundle+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+JXDemo.m"; path = "JXDemo/Classes/NSBundle+JXDemo.m"; sourceTree = "<group>"; };
+		CA997EF29B84BADB38CF50FF305F8385 /* Pods_JXUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXUIKit_Tests.framework; path = "Pods-JXUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE00B6215C6488E98287968C5584C940 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
+		CF2A2135DF2C00F564FA83CEA9185202 /* UINavigationController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UINavigationController+QMUI.h"; sourceTree = "<group>"; };
+		D026BFFE71596E62C3197A1229982CE2 /* QMUILogNameManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILogNameManager.m; path = QMUIKit/QMUIComponents/QMUILog/QMUILogNameManager.m; sourceTree = "<group>"; };
+		D0418989910C1264C38D1BA47392FE81 /* JXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1E1624DF67F6516ADE9761D551ABE4F /* Pods_JXUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXUIKit_Example.framework; path = "Pods-JXUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4678BEFB6E72349FE4FEEE69D646E7B /* JXUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JXUIButton.h; sourceTree = "<group>"; };
+		D62EAF25E9140F3E699F09F98D886294 /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLMappingAdditions.m"; path = "Mantle/NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		D762E68DD7941BCED942D39DCBAC99AD /* QMUILogItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILogItem.h; path = QMUIKit/QMUIComponents/QMUILog/QMUILogItem.h; sourceTree = "<group>"; };
+		D80A09F61A76A06B0825D6FC0F548D43 /* QMUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUIKit-umbrella.h"; sourceTree = "<group>"; };
+		DA304EAE41BF02BF08B8151A5F7555EA /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		DA60FE8FAF336D1670CB50506668A699 /* QMUIConfigurationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIConfigurationMacros.h; path = QMUIKit/QMUICore/QMUIConfigurationMacros.h; sourceTree = "<group>"; };
+		DC7DBECB90129A0B2C1AB4B21D01A7AA /* UITraitCollection+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITraitCollection+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITraitCollection+QMUI.m"; sourceTree = "<group>"; };
+		DCC0B0AB396F201EE0EE8C57E19BC2C3 /* UIView+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JXDemo.m"; path = "JXDemo/Classes/UIView+JXDemo.m"; sourceTree = "<group>"; };
+		DD1D70948277F0395790EAFD5B8A300F /* UISearchBar+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+QMUI.m"; path = "QMUIKit/UIKitExtensions/UISearchBar+QMUI.m"; sourceTree = "<group>"; };
+		DD3E7DE1C9C6FDBC411DDFBBEF5B69B3 /* UIControl+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIControl+QMUI.h"; sourceTree = "<group>"; };
+		DD6B0C2F27A5DD7B56231711FF38CC88 /* QMUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMUIKit-dummy.m"; sourceTree = "<group>"; };
+		DE04C188A0BD89B14AFCEEC28DCC7BDB /* CALayer+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+QMUI.h"; path = "QMUIKit/UIKitExtensions/CALayer+QMUI.h"; sourceTree = "<group>"; };
+		DE324FE815CA02D99CC677C9818994B7 /* UITableView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITableView+QMUI.h"; sourceTree = "<group>"; };
+		DEBA02D1FE10EE329F125FBF8AED8515 /* QMUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1A776C615C4560124495CAFA737492 /* UIInterface+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIInterface+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIInterface+QMUI.h"; sourceTree = "<group>"; };
+		DFC56BF2FE9DB497EDCDCF3A1FF142C5 /* UIApplication+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JXDemo.m"; path = "JXDemo/Classes/UIApplication+JXDemo.m"; sourceTree = "<group>"; };
+		E03F65B252B9C7C3CD024EF9AE1C1D53 /* UITraitCollection+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITraitCollection+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITraitCollection+QMUI.h"; sourceTree = "<group>"; };
+		E10343DE7ED0CF419A81CBCFF41FB9A3 /* UIActivityIndicatorView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIActivityIndicatorView+QMUI.h"; sourceTree = "<group>"; };
+		E1BFF33DB1E951ECA5A432B2A48E6939 /* UIWindow+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIWindow+QMUI.m"; sourceTree = "<group>"; };
+		E296C5B51E46FDC36DA08220BACE9DCA /* UIView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIView+QMUI.m"; sourceTree = "<group>"; };
+		E380DFB1F2215F2AAA15513E42A9E886 /* UIControl+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIControl+QMUI.m"; sourceTree = "<group>"; };
+		E43C0635B1ACCBC8584EF5183E920812 /* UILabel+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+QMUI.h"; path = "QMUIKit/UIKitExtensions/UILabel+QMUI.h"; sourceTree = "<group>"; };
+		E6AE683B9FADB998022F94FD091E9B22 /* ResourceBundle-JXDemo-JXDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JXDemo-JXDemo-Info.plist"; sourceTree = "<group>"; };
+		E6E16B6B6229C6978B5522BA0A263E00 /* UIScrollView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIScrollView+QMUI.m"; sourceTree = "<group>"; };
+		E6E3D27DD342C04E0DEAEAD7E8F490CB /* QMUILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILogger.h; path = QMUIKit/QMUIComponents/QMUILog/QMUILogger.h; sourceTree = "<group>"; };
+		E8797581E5CFA8DDEE35D944D56B63B1 /* NSPointerArray+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPointerArray+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSPointerArray+QMUI.m"; sourceTree = "<group>"; };
+		EA6FEACF568CFE9865677947721E7026 /* UITabBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITabBar+QMUI.h"; sourceTree = "<group>"; };
+		EBE7BA50EC2CE781263FB1DFDC633DDC /* UIFont+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIFont+QMUI.m"; sourceTree = "<group>"; };
+		ED363E8E89855864E9DB8C487DE506BF /* UIImage+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIImage+QMUI.h"; sourceTree = "<group>"; };
+		EDD63FE89DEF3FD7E7F9FC31907DF1B2 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		EDDCC5ED577CCFC4736B316F8B545D31 /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		EE7EC96D08CBC8384EDF4EFDDD8FDCF3 /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
+		F26056C18EF68A39A53B05C165084157 /* JXUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXUIKit-dummy.m"; sourceTree = "<group>"; };
+		F345E88D582E7934625F9008DDBFCEC8 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		F3621DB0E4F57FF7C4DB75EA36B6425C /* NSNumber+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSNumber+QMUI.h"; sourceTree = "<group>"; };
+		F374097C1212F9191EFE1EE79C6A6359 /* Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantle-dummy.m"; sourceTree = "<group>"; };
+		F39AB4FD8FE675EAA06C6D0A87B7E353 /* NSCharacterSet+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSCharacterSet+QMUI.h"; sourceTree = "<group>"; };
+		F49CC28FE225BD119E9B6B3316E732D2 /* UIApplication+JXDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+JXDemo.h"; path = "JXDemo/Classes/UIApplication+JXDemo.h"; sourceTree = "<group>"; };
+		F5E106F99CDB97698E3DDD58782B1824 /* Pods-JXUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		F7296F01D0D4D4FD61860662DF2DC3B7 /* UIButton+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIButton+QMUI.m"; sourceTree = "<group>"; };
+		F74C7A7D20D206355232B5C693880F1E /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		F7B80333A79869410251BBC4EE3C1C56 /* JXDBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXDBaseViewController.m; path = JXDemo/Classes/JXDBaseViewController.m; sourceTree = "<group>"; };
+		F9724803752AB97B86C94568A85407C1 /* Pods-JXUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F97EB7C9B4C8C87F22D7F00A5C41ECC9 /* JXUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXUIKit.h; path = JXUIKit/Classes/JXUIKit.h; sourceTree = "<group>"; };
+		FBCDD67FB548D95DF88DC0F2539EB242 /* NSURL+JXDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+JXDemo.m"; path = "JXDemo/Classes/NSURL+JXDemo.m"; sourceTree = "<group>"; };
+		FF7FA8CD60587A84525348197BB005BA /* Pods-JXUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076617144FDCD9181581A0848697B52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8734AF5261035964BCF7D021058F916A /* CoreGraphics.framework in Frameworks */,
+				A509A99D28E6875C9E248A4859C0E8FB /* Foundation.framework in Frameworks */,
+				E3EDCD843DB04CD0B608B2183173579D /* Photos.framework in Frameworks */,
+				9A2443DE2E1FABB461EA8CF758F49294 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C295329CDA44DCD0A67764CB0E009EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D247B3355E2344FE14F9ABDF48A6A91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F592BDB9ED2C2A6CE870D7602FCD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E107171982B2181FD7CD780FA3AD1ACB /* Foundation.framework in Frameworks */,
+				3AEF5C1AC78D55A2B5E7C8162C0A90BC /* Mantle.framework in Frameworks */,
+				30DE0E40DEBD31DB1EE8AF8AC329E6B4 /* UIKit.framework in Frameworks */,
+				E507322BECDD64B7E441728D3283232E /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64913844D1309EFAA8EFFE993A5ECD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5473F5C3D9A488A21144FB07AFBDC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFC67211A720ECC324EBBA4A50F9D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4B85C7359992782F21969630BF7146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769887B4673300B7C7B08C03D64D5BB9 /* Foundation.framework in Frameworks */,
+				2AC634D91AE542405A03D5A5DBC852FE /* QMUIKit.framework in Frameworks */,
+				444FF37F6A35D9FA5717A93420E7F019 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB13792984AB7A9D3761BE8336631B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23736FCA466158AF8B5CD22BE7C0C4E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BCCD534C12B047BC3988917CF91648 /* Pods-JXUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				882408A4E013C9C41F483F2A0900317C /* Pods-JXUIKit_Example.modulemap */,
+				8A7783BBD11C96152D03ABFCD2B401FF /* Pods-JXUIKit_Example-acknowledgements.markdown */,
+				2084E2292F89D20958A08EE2E775D559 /* Pods-JXUIKit_Example-acknowledgements.plist */,
+				AFBFEBC410832FDBE44EF625962D48B5 /* Pods-JXUIKit_Example-dummy.m */,
+				541B3900ACE5D84C6426F1208F39196B /* Pods-JXUIKit_Example-frameworks.sh */,
+				A38167D38F2BB0FB7E7E94C1F3104D10 /* Pods-JXUIKit_Example-Info.plist */,
+				518DD1730178986854AA9CA5DBA93D86 /* Pods-JXUIKit_Example-umbrella.h */,
+				F9724803752AB97B86C94568A85407C1 /* Pods-JXUIKit_Example.debug.xcconfig */,
+				9127985ABD7049E9842E2E4C59BCCC47 /* Pods-JXUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-JXUIKit_Example";
+			path = "Target Support Files/Pods-JXUIKit_Example";
+			sourceTree = "<group>";
+		};
+		14A18540DCD133A1BD307A474C272C76 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				8022A495BF9D2BC9FF91443CD4DBB2C0 /* JXUILabel.h */,
+				9843B95C4CC212CE264FE90E5EA198AA /* JXUILabel.m */,
+			);
+			name = Label;
+			path = JXUIKit/Classes/Label;
+			sourceTree = "<group>";
+		};
+		15AFC8BE0CC5DAE30F970F1E893A14B8 /* JXUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F97EB7C9B4C8C87F22D7F00A5C41ECC9 /* JXUIKit.h */,
+				544E59069B2DEB5A2E8005F1C39C83D5 /* Button */,
+				14A18540DCD133A1BD307A474C272C76 /* Label */,
+				EE20EA4D519E1A457836AF775644A8FC /* Pod */,
+				38357DF4B12E652C6E4FF839BF915EF0 /* Support Files */,
+			);
+			name = JXUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D8C3069152E05BE2E910E2C71361F5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D83DF26036E4B3587C292CEFFFE0366 /* JXDemo */,
+				6E92C42C93547FBAD8AFF95D66EF6C40 /* Mantle */,
+				F06CC5B510B685B6EDFA411B0B178E61 /* QMUIKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C48B2F72B0EDF0620644A9A5E42C458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBED61118BEB8AD4CB88BEA271CDF1B /* Mantle.framework */,
+				DEBA02D1FE10EE329F125FBF8AED8515 /* QMUIKit.framework */,
+				97142C0D66883AF83E25053C23605855 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDB7EAF70FE41610BA83C5EEFDF6502 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9526DFB5FC3B69771443B92F4663349 /* JXDemo.modulemap */,
+				951A5D0164F67D6C0F428A090A6ABB9F /* JXDemo.xcconfig */,
+				4FEF923E2ACBF59108D386A8D4D18D93 /* JXDemo-dummy.m */,
+				4F10654491A2D81544130BA829397FCC /* JXDemo-Info.plist */,
+				557ECC461EE9FD502DB94E1CBB05AE47 /* JXDemo-prefix.pch */,
+				68D11DE655ADA6EFEEE6A1EFD438CE15 /* JXDemo-umbrella.h */,
+				E6AE683B9FADB998022F94FD091E9B22 /* ResourceBundle-JXDemo-JXDemo-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXDemo";
+			sourceTree = "<group>";
+		};
+		303E9B003CA6E67A80F84DD4B943F263 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01BCCD534C12B047BC3988917CF91648 /* Pods-JXUIKit_Example */,
+				553BFE827345DFCE84B1EB1D40E91478 /* Pods-JXUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38357DF4B12E652C6E4FF839BF915EF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C69B710FC9B63086FCCFAC25DE91B04 /* JXUIKit.modulemap */,
+				51B030D45247C66E2FA50E7965B94A20 /* JXUIKit.xcconfig */,
+				F26056C18EF68A39A53B05C165084157 /* JXUIKit-dummy.m */,
+				7A9F8C727614D57E0640FB6A1EC95105 /* JXUIKit-Info.plist */,
+				272DD4745BDD9D450923E0B4DD47FBF6 /* JXUIKit-prefix.pch */,
+				615A8513A52F80FEAACAB73EFD44A08C /* JXUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXUIKit";
+			sourceTree = "<group>";
+		};
+		43F196C146DE904316EC500E9B4A6D06 /* QMUILog */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F44CB82E9EE26E3C6A5627CD97514 /* QMUILog.h */,
+				E6E3D27DD342C04E0DEAEAD7E8F490CB /* QMUILogger.h */,
+				B1D221AA011B936B4E8CD5041077AA1E /* QMUILogger.m */,
+				D762E68DD7941BCED942D39DCBAC99AD /* QMUILogItem.h */,
+				1DCF6C53EFFD1D08B186AC769EA133E2 /* QMUILogItem.m */,
+				0E8EFD266502731269BFB6E926ECBA11 /* QMUILogNameManager.h */,
+				D026BFFE71596E62C3197A1229982CE2 /* QMUILogNameManager.m */,
+			);
+			name = QMUILog;
+			sourceTree = "<group>";
+		};
+		544E59069B2DEB5A2E8005F1C39C83D5 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D4678BEFB6E72349FE4FEEE69D646E7B /* JXUIButton.h */,
+				31B949B7F6404047509D541AF7C8B5C8 /* JXUIButton.m */,
+			);
+			name = Button;
+			path = JXUIKit/Classes/Button;
+			sourceTree = "<group>";
+		};
+		553BFE827345DFCE84B1EB1D40E91478 /* Pods-JXUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCDDB8EB54887AE37B785FBFE3BC6C /* Pods-JXUIKit_Tests.modulemap */,
+				989CCF84FE9575C0BE043783418819DB /* Pods-JXUIKit_Tests-acknowledgements.markdown */,
+				4FF24AFC949252F860A9DC4F6CDDB479 /* Pods-JXUIKit_Tests-acknowledgements.plist */,
+				F5E106F99CDB97698E3DDD58782B1824 /* Pods-JXUIKit_Tests-dummy.m */,
+				2E75EE67CAADBB97E21331E1022DCEF4 /* Pods-JXUIKit_Tests-Info.plist */,
+				9DD5320D1D58FBCF95AFDF807992A0B7 /* Pods-JXUIKit_Tests-umbrella.h */,
+				21B584EFBA0C0C09EA1E734312D92F4A /* Pods-JXUIKit_Tests.debug.xcconfig */,
+				FF7FA8CD60587A84525348197BB005BA /* Pods-JXUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JXUIKit_Tests";
+			path = "Target Support Files/Pods-JXUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		6E92C42C93547FBAD8AFF95D66EF6C40 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				CE00B6215C6488E98287968C5584C940 /* Mantle.h */,
+				EDDCC5ED577CCFC4736B316F8B545D31 /* MTLJSONAdapter.h */,
+				93D9981A3CEED3C2AAB90AA334D17713 /* MTLJSONAdapter.m */,
+				EE7EC96D08CBC8384EDF4EFDDD8FDCF3 /* MTLModel.h */,
+				80BF15E75E0C315541F57425DA3204C1 /* MTLModel.m */,
+				4B21E0C39298F01FACA8194B37ED62D9 /* MTLModel+NSCoding.h */,
+				93732FA93D44F9256C7BBC41E25BFF37 /* MTLModel+NSCoding.m */,
+				ACA34CD507F9D86AF738BBA9ADDD1124 /* MTLReflection.h */,
+				607DF5EBC7D8F61F293FB9CA28FCF1CA /* MTLReflection.m */,
+				9AD326EEDAA90C3D3685ACF0A331EB17 /* MTLTransformerErrorHandling.h */,
+				02BA5D9604742F2B9193C2EB7093D766 /* MTLTransformerErrorHandling.m */,
+				F74C7A7D20D206355232B5C693880F1E /* MTLValueTransformer.h */,
+				A7CA2CE8D54640F47E504638CC183D63 /* MTLValueTransformer.m */,
+				302C168D0C911DFD9F41F4883E026E6A /* NSArray+MTLManipulationAdditions.h */,
+				BF6D937E1B33E140DA1BE0E770BFBD10 /* NSArray+MTLManipulationAdditions.m */,
+				22DD08275C242C2C1BA02639816F311A /* NSDictionary+MTLJSONKeyPath.h */,
+				5F647DF6F4F5D685B0C5D96027F83E42 /* NSDictionary+MTLJSONKeyPath.m */,
+				21DBAAB00F4DA2921307E27CD028E341 /* NSDictionary+MTLManipulationAdditions.h */,
+				490994D4FE9896587925E45C00974C66 /* NSDictionary+MTLManipulationAdditions.m */,
+				B71017CACA1AB1C8CA5145E963DAC370 /* NSDictionary+MTLMappingAdditions.h */,
+				D62EAF25E9140F3E699F09F98D886294 /* NSDictionary+MTLMappingAdditions.m */,
+				167117E707B4829498A84252EE468E30 /* NSError+MTLModelException.h */,
+				1F6C0EC192AD7857B101B6AD935CEE10 /* NSError+MTLModelException.m */,
+				5B37B491D73BD5AB3DB966060DD460A7 /* NSObject+MTLComparisonAdditions.h */,
+				640599DFDDC3FB668CF3AC271109E1FC /* NSObject+MTLComparisonAdditions.m */,
+				5101CD1EF3FAEDC91B033E81095DBF54 /* NSValueTransformer+MTLInversionAdditions.h */,
+				190682A64B1FD69DD302975A09C5AEDC /* NSValueTransformer+MTLInversionAdditions.m */,
+				C1D1FD207FFDA8A9E89457873AA52011 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				205254DF80FDED68C81FA379385FB5DA /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+				F23829141F3E75D22B05659E76ACBCA8 /* extobjc */,
+				DC162CD3A4BFC65479481E678B9E5282 /* Support Files */,
+			);
+			name = Mantle;
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		8D83DF26036E4B3587C292CEFFFE0366 /* JXDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49A3206EBCD7EEFA112029FCC224B0A9 /* JXDBaseObject.h */,
+				269E452E56437DD48854E9A666DEA1E8 /* JXDBaseObject.m */,
+				06BCBB35B17B8BBF938E42CAB551444D /* JXDBaseTableCell.h */,
+				AD63EB06A71D4141C96E4B3E26CA8EE0 /* JXDBaseTableCell.m */,
+				42A8C05FED9BE7E70A4CBD8EFF17E3F0 /* JXDBaseViewController.h */,
+				F7B80333A79869410251BBC4EE3C1C56 /* JXDBaseViewController.m */,
+				14D686F1E78176CAC91576336D00CE17 /* JXDCase.h */,
+				B42819A8FB84E1EB3261567CC760F432 /* JXDCase.m */,
+				85FF72A3CC9FF9AD7BB5508DD3DDAA1C /* JXDCaseCell.h */,
+				7446527ADD5B520BAD2FBB05B8EC1CB1 /* JXDCaseCell.m */,
+				0C8E5C7947F626C59A8BDE74D77B8FDC /* JXDCaseViewController.h */,
+				BB41C5E11E4773AA9381490B151F31C7 /* JXDCaseViewController.m */,
+				168F5135748E65CB2ABF5AA6F2298FA4 /* JXDemo.h */,
+				0993D2A345A8BB89102DCEDA7DFEE4D6 /* JXDTableViewController.h */,
+				4C5D3854C0A0F5CF13C9BD1539417B44 /* JXDTableViewController.m */,
+				4DD2D53DE65F3853954DD5D884C6C244 /* JXDWebViewController.h */,
+				148C078FC980345370FE2ABAD9B981FF /* JXDWebViewController.m */,
+				163ED10CC70F541D1956BD22FB424DD8 /* JXDWebViewProgressView.h */,
+				73FD23AFD828B4CB5CFB2CC01258D948 /* JXDWebViewProgressView.m */,
+				4B0BD25F80F0AB7D95BE632F06C0B879 /* NSBundle+JXDemo.h */,
+				C954CCFDFA5CFD02DC5BA7B35E843E1B /* NSBundle+JXDemo.m */,
+				7DD82E60BF4F3A9AFA0B19CD9315537A /* NSString+JXDemo.h */,
+				7E84FF30297978A73AE8613BCE5F019B /* NSString+JXDemo.m */,
+				0E2BD38DFDDCE580580EA1ADF288952E /* NSURL+JXDemo.h */,
+				FBCDD67FB548D95DF88DC0F2539EB242 /* NSURL+JXDemo.m */,
+				F49CC28FE225BD119E9B6B3316E732D2 /* UIApplication+JXDemo.h */,
+				DFC56BF2FE9DB497EDCDCF3A1FF142C5 /* UIApplication+JXDemo.m */,
+				21B2279D2295CCAC9F8DF7D72571D099 /* UIImage+JXDemo.h */,
+				1249C33638FDC471CA2CB89B8528BCFD /* UIImage+JXDemo.m */,
+				2A1A62279EFE6A04E127CB6AFB17241A /* UIView+JXDemo.h */,
+				DCC0B0AB396F201EE0EE8C57E19BC2C3 /* UIView+JXDemo.m */,
+				9A973ACAD5DA1B49AF64C64DF458D485 /* UIWindow+JXDemo.h */,
+				78A44F5EC638DE450ADFBE725B804769 /* UIWindow+JXDemo.m */,
+				E63206EBA3CFB49A4670C0F6C67447E0 /* Resources */,
+				2FDB7EAF70FE41610BA83C5EEFDF6502 /* Support Files */,
+			);
+			name = JXDemo;
+			path = JXDemo;
+			sourceTree = "<group>";
+		};
+		93D5B1A008FDFEC98597135AEC4F6EA5 /* QMUICore */ = {
+			isa = PBXGroup;
+			children = (
+				DE04C188A0BD89B14AFCEEC28DCC7BDB /* CALayer+QMUI.h */,
+				C33950DA48F1B8B941669F022B195B5A /* CALayer+QMUI.m */,
+				4177A5D764326E41DFB7BB07AA2A9BE6 /* NSArray+QMUI.h */,
+				3EB328386AB36DC1ABDC3A2C2BF009F4 /* NSArray+QMUI.m */,
+				8C2F073971E8C6432AC379F7D855A927 /* NSAttributedString+QMUI.h */,
+				AAD58A4804D2CEC410E3947DD66F0552 /* NSAttributedString+QMUI.m */,
+				F39AB4FD8FE675EAA06C6D0A87B7E353 /* NSCharacterSet+QMUI.h */,
+				18386DA79CF4923B3C7A41B68ECEC314 /* NSCharacterSet+QMUI.m */,
+				1EB85A4F99EE6C1C43F01F62737E8F9B /* NSMethodSignature+QMUI.h */,
+				81147C98BA0C30F08AC19594425D38B7 /* NSMethodSignature+QMUI.m */,
+				F3621DB0E4F57FF7C4DB75EA36B6425C /* NSNumber+QMUI.h */,
+				3C2BE9D2293E9DA6854F1C9B60CA35F2 /* NSNumber+QMUI.m */,
+				660C1BFE915F1A84ED650854B43D6D8C /* NSObject+QMUI.h */,
+				7C5337A8ED30893B679EB7642A223D00 /* NSObject+QMUI.m */,
+				C37DD3F51240FA3155442D95A2A341F4 /* NSParagraphStyle+QMUI.h */,
+				5591C7EC65876D8324A42AD174B756DA /* NSParagraphStyle+QMUI.m */,
+				97098286A3F3B6647FAA5A60227ED703 /* NSPointerArray+QMUI.h */,
+				E8797581E5CFA8DDEE35D944D56B63B1 /* NSPointerArray+QMUI.m */,
+				5787AE4867F6D95EC5B841EC325EE25E /* NSString+QMUI.h */,
+				5748D719B80DABD2406031E242C03BA6 /* NSString+QMUI.m */,
+				2245756E2AB980DB4276C3906EF1725B /* NSURL+QMUI.h */,
+				AA6A262328578DD0A4009318B8C2E109 /* NSURL+QMUI.m */,
+				1C04200AA5189DF5A948C287CEAFBBFF /* QMUICommonDefines.h */,
+				50A8DD3C4052A848B965F1E6A20761D6 /* QMUIConfiguration.h */,
+				257A35F300C185414312B53A54E84509 /* QMUIConfiguration.m */,
+				DA60FE8FAF336D1670CB50506668A699 /* QMUIConfigurationMacros.h */,
+				98E4AF6DEA48A6A55006613A8CAC291B /* QMUICore.h */,
+				815EBDF16FCAE0FE5C5CB8F78C1FB0D0 /* QMUIHelper.h */,
+				77DD23D149CB530C0173C041CB475945 /* QMUIHelper.m */,
+				07709FDD3D17A31DAAE25812DA0FC638 /* QMUIKit.h */,
+				26BBD84E64D0383175B0B0D507CFC627 /* QMUILab.h */,
+				9871F8587869C0F2D12EB16C0839021A /* QMUIRuntime.h */,
+				5549C9070BDFDDC02ECEFEC3C71CBC50 /* QMUIRuntime.m */,
+				E10343DE7ED0CF419A81CBCFF41FB9A3 /* UIActivityIndicatorView+QMUI.h */,
+				3A8103C811176E0FB079CF9B2B116BB6 /* UIActivityIndicatorView+QMUI.m */,
+				1EB5D87EDF8F798F33AD1DBA7B5CC644 /* UIBarItem+QMUI.h */,
+				0EFB3C654AECFC021B336134B1AD6273 /* UIBarItem+QMUI.m */,
+				55B146C42A35655BCD7C55F09D9C911C /* UIBezierPath+QMUI.h */,
+				964A74100A17908E97DB21A1B97A8D40 /* UIBezierPath+QMUI.m */,
+				A26E8F388D946575D717F12320D89B74 /* UIButton+QMUI.h */,
+				F7296F01D0D4D4FD61860662DF2DC3B7 /* UIButton+QMUI.m */,
+				436511699EB39BB62E922FD3DCE2184A /* UICollectionView+QMUI.h */,
+				21BD94F47083D820AB6CC33B3EB1973C /* UICollectionView+QMUI.m */,
+				14A20573CABEEFB36EBBCA20FB0BB798 /* UIColor+QMUI.h */,
+				0318473762DD22AA27CD224AE4998C67 /* UIColor+QMUI.m */,
+				DD3E7DE1C9C6FDBC411DDFBBEF5B69B3 /* UIControl+QMUI.h */,
+				E380DFB1F2215F2AAA15513E42A9E886 /* UIControl+QMUI.m */,
+				22547CEAE9FE8AE0EBB4D0462A2DC7D2 /* UIFont+QMUI.h */,
+				EBE7BA50EC2CE781263FB1DFDC633DDC /* UIFont+QMUI.m */,
+				576D99244F09B3AE4F91D572C69069EC /* UIGestureRecognizer+QMUI.h */,
+				B13368BFD79C00DE6C8DBF3A7911AA61 /* UIGestureRecognizer+QMUI.m */,
+				ED363E8E89855864E9DB8C487DE506BF /* UIImage+QMUI.h */,
+				9D5C62B4350A3EF3F9867185CDA3EFF0 /* UIImage+QMUI.m */,
+				44DA94FA3DE8A0FF1F7A96C80957BD65 /* UIImageView+QMUI.h */,
+				8DE0685D1BE4CD432F2F533DF55C6CBB /* UIImageView+QMUI.m */,
+				DF1A776C615C4560124495CAFA737492 /* UIInterface+QMUI.h */,
+				9A1D97ED13C711DB962DCE8D8984F5C2 /* UIInterface+QMUI.m */,
+				E43C0635B1ACCBC8584EF5183E920812 /* UILabel+QMUI.h */,
+				B2F90D5EDC65A6C1CE24C5031181FB14 /* UILabel+QMUI.m */,
+				BAF931DD3C29A46C12B0F7DE148A8D7A /* UIMenuController+QMUI.h */,
+				06B02F0499E9A4F9A81CDBE71F6CADA1 /* UIMenuController+QMUI.m */,
+				6BFD62C2818D911344A2CB8BBB1F4589 /* UINavigationBar+QMUI.h */,
+				C15A17B2CDF2BAB26214B69B382D19C2 /* UINavigationBar+QMUI.m */,
+				CF2A2135DF2C00F564FA83CEA9185202 /* UINavigationController+QMUI.h */,
+				C7B37C5617BE21A5596C09927D0D6EB5 /* UINavigationController+QMUI.m */,
+				4B167B18E597C2EE1E57E0E0D0ABA482 /* UIScrollView+QMUI.h */,
+				E6E16B6B6229C6978B5522BA0A263E00 /* UIScrollView+QMUI.m */,
+				243EEE78AC7D19C7BB3880893A50500C /* UISearchBar+QMUI.h */,
+				DD1D70948277F0395790EAFD5B8A300F /* UISearchBar+QMUI.m */,
+				527A59599E89E34433B96FCADC12A90A /* UISearchController+QMUI.h */,
+				763AC35EDC5E263B3A7A62195F20E818 /* UISearchController+QMUI.m */,
+				808876289C26B2BA81B7ABF1A403F245 /* UISwitch+QMUI.h */,
+				C60FECA9FE91044D5F7DF6F1066E6C50 /* UISwitch+QMUI.m */,
+				EA6FEACF568CFE9865677947721E7026 /* UITabBar+QMUI.h */,
+				09B405FAC9700BA17910CE19CC80F84F /* UITabBar+QMUI.m */,
+				02330E10E5147DE95F87C45AA3B701E3 /* UITabBarItem+QMUI.h */,
+				3B1B12F18DA7D04995BBAB9A3094490F /* UITabBarItem+QMUI.m */,
+				DE324FE815CA02D99CC677C9818994B7 /* UITableView+QMUI.h */,
+				4DB0D0522F68BCE13E8D0A1F49457369 /* UITableView+QMUI.m */,
+				3AEADB2A0D2F01C48021F7AD24842B0F /* UITableViewCell+QMUI.h */,
+				35EEBFB3F3AE72803794E9C6FA52AC28 /* UITableViewCell+QMUI.m */,
+				899642D4F4002F62D3BE732DB0B9CC37 /* UITextField+QMUI.h */,
+				32DAEF87D9EFAD92B7E50FE76A562FBA /* UITextField+QMUI.m */,
+				0957F9285D6B3A37DB353E379E336F71 /* UITextInputTraits+QMUI.h */,
+				5566CDEEB14128E6186042A0F9AE37A8 /* UITextInputTraits+QMUI.m */,
+				1C6E9109BAFEB02C81E33C6DC2556521 /* UITextView+QMUI.h */,
+				6AED33908A72A446DEF10CCFA6E0DF5E /* UITextView+QMUI.m */,
+				E03F65B252B9C7C3CD024EF9AE1C1D53 /* UITraitCollection+QMUI.h */,
+				DC7DBECB90129A0B2C1AB4B21D01A7AA /* UITraitCollection+QMUI.m */,
+				9D37E8BE2678F2F636A528C6EB584DCC /* UIView+QMUI.h */,
+				E296C5B51E46FDC36DA08220BACE9DCA /* UIView+QMUI.m */,
+				1E61B33031CB8961585DF48AD5D5E439 /* UIViewController+QMUI.h */,
+				404234D242BBC3330C98B7929F7A6D5F /* UIViewController+QMUI.m */,
+				BD3F4949602AF12F62E528D5817D6C29 /* UIWindow+QMUI.h */,
+				E1BFF33DB1E951ECA5A432B2A48E6939 /* UIWindow+QMUI.m */,
+			);
+			name = QMUICore;
+			sourceTree = "<group>";
+		};
+		97142C0D66883AF83E25053C23605855 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				352F0C1445C8613D616AF54057C02B96 /* CoreGraphics.framework */,
+				50195FECAFF7AE666F2238EAD6C9FA73 /* Foundation.framework */,
+				B5D5D57657BB8B44A20069DD092CC244 /* Photos.framework */,
+				242AFD4E5FCE29602FEFF3A7E3153E6A /* UIKit.framework */,
+				02D53F1A224113742A67335ADEEE6503 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B5AE019D52CDCAB304580A7D8F4AC0D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30897AA43323FFDD366A499F9E889065 /* JXDemo.bundle */,
+				45687C74F2B96C4E97B9ACDD76556423 /* JXDemo.framework */,
+				01C5BA1CBB75EAD4A231C62BF86E4F51 /* JXUIKit.framework */,
+				6BCD3E077861DE8917A0FFFBC6BD96CF /* Mantle.framework */,
+				D1E1624DF67F6516ADE9761D551ABE4F /* Pods_JXUIKit_Example.framework */,
+				CA997EF29B84BADB38CF50FF305F8385 /* Pods_JXUIKit_Tests.framework */,
+				8596B7A0C5A3E188061E9EDDAB573FCE /* QMUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77FFEB3DB9EA5E5123E1D53BE9EC152 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15AFC8BE0CC5DAE30F970F1E893A14B8 /* JXUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B77FFEB3DB9EA5E5123E1D53BE9EC152 /* Development Pods */,
+				2C48B2F72B0EDF0620644A9A5E42C458 /* Frameworks */,
+				1D8C3069152E05BE2E910E2C71361F5E /* Pods */,
+				B5AE019D52CDCAB304580A7D8F4AC0D4 /* Products */,
+				303E9B003CA6E67A80F84DD4B943F263 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A5E8169D3DF24D17B6B0645FE81432 /* QMUIWeakObjectContainer */ = {
+			isa = PBXGroup;
+			children = (
+				7A89002F22D3C27765179D5BA1D5AD85 /* QMUIWeakObjectContainer.h */,
+				925F4D04C27939BCDA6EB7F126ACE060 /* QMUIWeakObjectContainer.m */,
+			);
+			name = QMUIWeakObjectContainer;
+			sourceTree = "<group>";
+		};
+		DB1C4952728086023EA813BA0579FC5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				517CCCAE83BC1839C90EF4D87C9EC719 /* QMUIKit.modulemap */,
+				3683A8AA6BA3F40E44D782203FCB9AE8 /* QMUIKit.xcconfig */,
+				DD6B0C2F27A5DD7B56231711FF38CC88 /* QMUIKit-dummy.m */,
+				0670F1B909776EE3F93323A61AFA002F /* QMUIKit-Info.plist */,
+				08A16B178DA9C841B2FCA523424A3AFF /* QMUIKit-prefix.pch */,
+				D80A09F61A76A06B0825D6FC0F548D43 /* QMUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QMUIKit";
+			sourceTree = "<group>";
+		};
+		DC162CD3A4BFC65479481E678B9E5282 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14463642F985C4AEB02A075A3FBF24ED /* Mantle.modulemap */,
+				4790D16E124BB0C3B0FFB4E48E84894C /* Mantle.xcconfig */,
+				F374097C1212F9191EFE1EE79C6A6359 /* Mantle-dummy.m */,
+				88FCD4BB672D7CD844EC9F284EF2FE55 /* Mantle-Info.plist */,
+				5D6BF84360F66CA90E40BD8918F01E21 /* Mantle-prefix.pch */,
+				3F26BBE0ED151A1041E8ACDE74EA08CB /* Mantle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mantle";
+			sourceTree = "<group>";
+		};
+		E63206EBA3CFB49A4670C0F6C67447E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06676CA434B1E9468CAF37052F703C2D /* jxd_nav_back@2x.png */,
+				35B4D6FB4F827273A5403A67CEE3A3A4 /* jxd_nav_back@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EE20EA4D519E1A457836AF775644A8FC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D0418989910C1264C38D1BA47392FE81 /* JXUIKit.podspec */,
+				BC6BE1CC2D16DBAF55D94E7D5EF71923 /* LICENSE */,
+				C06E37865ED9CF0491C8B840D8951FE5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F06CC5B510B685B6EDFA411B0B178E61 /* QMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				93D5B1A008FDFEC98597135AEC4F6EA5 /* QMUICore */,
+				43F196C146DE904316EC500E9B4A6D06 /* QMUILog */,
+				D8A5E8169D3DF24D17B6B0645FE81432 /* QMUIWeakObjectContainer */,
+				DB1C4952728086023EA813BA0579FC5D /* Support Files */,
+			);
+			name = QMUIKit;
+			path = QMUIKit;
+			sourceTree = "<group>";
+		};
+		F23829141F3E75D22B05659E76ACBCA8 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				EDD63FE89DEF3FD7E7F9FC31907DF1B2 /* EXTKeyPathCoding.h */,
+				3696D484F1096B371A67AA280A732501 /* EXTRuntimeExtensions.h */,
+				F345E88D582E7934625F9008DDBFCEC8 /* EXTRuntimeExtensions.m */,
+				A2EF966D827E99D06F6BDB58DB9F2CA3 /* EXTScope.h */,
+				DA304EAE41BF02BF08B8151A5F7555EA /* EXTScope.m */,
+				26A27079804176EA4A65AA83CD89A93E /* metamacros.h */,
+			);
+			name = extobjc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55E2D227B77ABA6BEA2F0BFF229E51B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13953ED566562D44A90D20EA27456906 /* EXTKeyPathCoding.h in Headers */,
+				FC4DA1241F62E07435ABCBA261C1A1AD /* EXTRuntimeExtensions.h in Headers */,
+				114C00CA62D034849B1B5190718BD8AA /* EXTScope.h in Headers */,
+				5EFC23033F0E3879B80268795EAE40B4 /* Mantle-umbrella.h in Headers */,
+				411C2427735A179870E8E32AAC8CD9D5 /* Mantle.h in Headers */,
+				EA5BCFF3AA58A150040BB786D70A10C8 /* metamacros.h in Headers */,
+				C444D5E49689B7FCCC403ACEB16904F6 /* MTLJSONAdapter.h in Headers */,
+				6F60CD1E8F02C0AD6EED6CFC390994B8 /* MTLModel+NSCoding.h in Headers */,
+				FDF7EFFFA576EE5426AED761616BDE5F /* MTLModel.h in Headers */,
+				66DEAD60B7538AE4CB81A425795CB546 /* MTLReflection.h in Headers */,
+				E0EBDBD5BA58E1FD6B30B931431E04BE /* MTLTransformerErrorHandling.h in Headers */,
+				64F1C2B5C3B8E265566CFAE7CFD573BE /* MTLValueTransformer.h in Headers */,
+				D9246FB11D96EF3368E0AFCEF88A4D93 /* NSArray+MTLManipulationAdditions.h in Headers */,
+				9A6CF9AB1E864FB859D5D7C2DA202E9D /* NSDictionary+MTLJSONKeyPath.h in Headers */,
+				BF1BE5C717C794E873E4E29873938F9F /* NSDictionary+MTLManipulationAdditions.h in Headers */,
+				AEDB7A2790FA6D4C3D03EB62D827417E /* NSDictionary+MTLMappingAdditions.h in Headers */,
+				7E1F06164E2192EC388FE3D63336B456 /* NSError+MTLModelException.h in Headers */,
+				2AEA3E60E0E31C49928012F40BF4B47A /* NSObject+MTLComparisonAdditions.h in Headers */,
+				122E0AC87436DD5926FFABED7E2CE014 /* NSValueTransformer+MTLInversionAdditions.h in Headers */,
+				7C49C2B760C719C8DA420AF12140485C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD9FE2BE725D8057F6364FC27499544 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0C45488F4561C9E1870C4B30BA3980 /* JXUIButton.h in Headers */,
+				123893AE8BF059D009E3EB4A67079D35 /* JXUIKit-umbrella.h in Headers */,
+				38B5DA84E7AACB6EE83BCD29AF068916 /* JXUIKit.h in Headers */,
+				BF0DE3B90BCC2DE32CF468FF290AA715 /* JXUILabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1620733466BE1D5C4AEFDE61079BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6591BC965A7151F3FAE65D9893BD0 /* JXDBaseObject.h in Headers */,
+				8C1EAC8525E0F9FD9F53B95B3DA00F86 /* JXDBaseTableCell.h in Headers */,
+				E17A27BAA7F060DE11B9FCC93E011A76 /* JXDBaseViewController.h in Headers */,
+				49C742731E48C5CE63ED46F96FBA4EF0 /* JXDCase.h in Headers */,
+				D7346A231933182417B7CC46951701B1 /* JXDCaseCell.h in Headers */,
+				9742EEB3FEC0E92C80AA88BF51331F4C /* JXDCaseViewController.h in Headers */,
+				2176AE9C3F3C17D21D0081550ACFE257 /* JXDemo-umbrella.h in Headers */,
+				1D69771B55D6F46217C705D363C65745 /* JXDemo.h in Headers */,
+				36B0A5937CD32AF3E953AA87AB81FC9F /* JXDTableViewController.h in Headers */,
+				13E96F3F3E39D64F7DF07C984266D702 /* JXDWebViewController.h in Headers */,
+				A0F803952FAD61DCA652867956BF428A /* JXDWebViewProgressView.h in Headers */,
+				DCA16435D4783A6D499204E2DA7C4A12 /* NSBundle+JXDemo.h in Headers */,
+				E8FE54FDBDCC9328A9FE984E4612130D /* NSString+JXDemo.h in Headers */,
+				9344DA7ABC6C1FAC13373165EEF57F3E /* NSURL+JXDemo.h in Headers */,
+				1B39EFA06F79ACF07E4ABDEFC49B2C1F /* UIApplication+JXDemo.h in Headers */,
+				04FEC2B41099F24057D3E69A2CF0F202 /* UIImage+JXDemo.h in Headers */,
+				D4C2B0B2ED57D4604F42FD9D89FB8961 /* UIView+JXDemo.h in Headers */,
+				27D40B7021EBE1F3B0654AB59B740282 /* UIWindow+JXDemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2F522ADBD01CE2D872911BCCA3FC51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1044318E685C4FF1C8B294B7DB0DCA4F /* CALayer+QMUI.h in Headers */,
+				1E15EE60362D6952508AA8FFCAD836E3 /* NSArray+QMUI.h in Headers */,
+				01285726D7DEEC900B8BFF5DD388C51A /* NSAttributedString+QMUI.h in Headers */,
+				22C5C4F25E2C01169B39199AEDDBB1BF /* NSCharacterSet+QMUI.h in Headers */,
+				6467DDFA39056A90EB63B58EFD4F7168 /* NSMethodSignature+QMUI.h in Headers */,
+				6DCAE79BACD28EB202D94D929EC7216D /* NSNumber+QMUI.h in Headers */,
+				A87045E198C0DCA8B78D82C6D3D7DE49 /* NSObject+QMUI.h in Headers */,
+				9FBA25D1D4A5D1CA44B9FCE2C4A0B8F6 /* NSParagraphStyle+QMUI.h in Headers */,
+				4EA84EF2D8CFCE72E1A46048A6389D2C /* NSPointerArray+QMUI.h in Headers */,
+				9CC37C0EDBDF8D59BE0B7412A8503724 /* NSString+QMUI.h in Headers */,
+				3B03F20DE74600BD38A06683205FE7E0 /* NSURL+QMUI.h in Headers */,
+				C6E3734920B801C23B3FEA43A3898BFD /* QMUICommonDefines.h in Headers */,
+				4BB4AF21350FA94464B4C122242C35B1 /* QMUIConfiguration.h in Headers */,
+				6D4E3814255F747B283733F2D294341E /* QMUIConfigurationMacros.h in Headers */,
+				14A1978F01FC7F7B15D99884831E00A4 /* QMUICore.h in Headers */,
+				031E39D3554429265B18D8FF3B6E5D75 /* QMUIHelper.h in Headers */,
+				12078D3A60281A1E73B1D4FC138C2D8F /* QMUIKit-umbrella.h in Headers */,
+				3C3606A34C43E9FEFE28C5383475AD96 /* QMUIKit.h in Headers */,
+				68A10D77172C4BC2F27A5BD178D3C600 /* QMUILab.h in Headers */,
+				6365F46481B91498D1EA7E89B8839741 /* QMUILog.h in Headers */,
+				04565D377F33BB23EF1679E328C8BC03 /* QMUILogger.h in Headers */,
+				19720C57487749BD53042A6B4B1E0AE7 /* QMUILogItem.h in Headers */,
+				7012993715881C0000166424D7A0DD9A /* QMUILogNameManager.h in Headers */,
+				E568D21C1DF3BEBC717155638700D358 /* QMUIRuntime.h in Headers */,
+				7E2B02B3EB5A98A70C6EA737C10446B8 /* QMUIWeakObjectContainer.h in Headers */,
+				0E60D7F6E12F6BD24A295C9E541948A7 /* UIActivityIndicatorView+QMUI.h in Headers */,
+				FB02E9855DE17F17B1E645EFE9E98A56 /* UIBarItem+QMUI.h in Headers */,
+				2A2A3931E25773E6BD2C6DC86F5D1800 /* UIBezierPath+QMUI.h in Headers */,
+				B91EE01BDD3E6763D72DF44E364ED025 /* UIButton+QMUI.h in Headers */,
+				94DE8A018CD8DB6D823EB1DD2285CECA /* UICollectionView+QMUI.h in Headers */,
+				E4A6AA0FA237B9C4FEF026459499BC7B /* UIColor+QMUI.h in Headers */,
+				A7EB8407EF73A21B2A7A1E9CE587D1E0 /* UIControl+QMUI.h in Headers */,
+				E52C34101283D30289F0A70A2360B688 /* UIFont+QMUI.h in Headers */,
+				05092FCC89D592FAA46EEE200CD01176 /* UIGestureRecognizer+QMUI.h in Headers */,
+				2E7EE6E23028361103F82BB5DA02CADC /* UIImage+QMUI.h in Headers */,
+				C1665CE4D3CB805B703826F8AB58254D /* UIImageView+QMUI.h in Headers */,
+				E4E2ED2D4BA6F81D1E05C991E6D7A0C0 /* UIInterface+QMUI.h in Headers */,
+				27FF9DA7C8AA80756A6B40753B46D40F /* UILabel+QMUI.h in Headers */,
+				67393CC89E6611729DFD4C4C7141227D /* UIMenuController+QMUI.h in Headers */,
+				D96A48A43EEB1E58EC65C6CEBAB336AE /* UINavigationBar+QMUI.h in Headers */,
+				FB36234A5A58599C2FB31349D576282F /* UINavigationController+QMUI.h in Headers */,
+				396F66D3EB936E65EB8E4828BC289956 /* UIScrollView+QMUI.h in Headers */,
+				624B5D4363D147517BB4AF336118CE64 /* UISearchBar+QMUI.h in Headers */,
+				66EBD21330886AF7A557FCB8E190D1FA /* UISearchController+QMUI.h in Headers */,
+				8E5A29FED550B5C9AD40054E790CD68F /* UISwitch+QMUI.h in Headers */,
+				A149E1D2D77F8C5CA8A429F439064F84 /* UITabBar+QMUI.h in Headers */,
+				9C0D94C46EF78164EC5092D4ED94C55E /* UITabBarItem+QMUI.h in Headers */,
+				C8D5C91AF1D88F8BD8D14B7DBF14B67B /* UITableView+QMUI.h in Headers */,
+				C572A1FEB1ADF93734CD588147DE4127 /* UITableViewCell+QMUI.h in Headers */,
+				36C9CF3F51AFB30331583293950E6547 /* UITextField+QMUI.h in Headers */,
+				F3E46035A80575B5F9D528D1CD7698BD /* UITextInputTraits+QMUI.h in Headers */,
+				16922AD6974CBDFD63B1C37F8643A1EF /* UITextView+QMUI.h in Headers */,
+				098DE1FBCD494B66541A674137E48AA7 /* UITraitCollection+QMUI.h in Headers */,
+				ED19CD5C2E68FC948484AFE0A057A969 /* UIView+QMUI.h in Headers */,
+				55999E2E6F123BC134838CF8DE8A166A /* UIViewController+QMUI.h in Headers */,
+				DCCFFF5CF29EAD980B56D4178E2D734C /* UIWindow+QMUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA64CC06E67769C64220C7F81EC6A55A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC407CD621CD7ED6BC654153146F966C /* Pods-JXUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76898DA9522CC2D070DA55727BA02C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C0AE297D03EE517777A973DEA494E /* Pods-JXUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47CCF1D9F019FFC6546DA481B71A2C4E /* Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F51DD606207927B3F74CDC0AA8F184 /* Build configuration list for PBXNativeTarget "Mantle" */;
+			buildPhases = (
+				55E2D227B77ABA6BEA2F0BFF229E51B7 /* Headers */,
+				2E970F3728EE8AF506B72AF014262FD9 /* Sources */,
+				EB13792984AB7A9D3761BE8336631B33 /* Frameworks */,
+				E0635130DCEDDB3E74EC648D889DA5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mantle;
+			productName = Mantle;
+			productReference = 6BCD3E077861DE8917A0FFFBC6BD96CF /* Mantle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51CF4E97FB3098468519EB3488D48DD3 /* JXDemo-JXDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A3E5C5B79415F76A7E270BF1A2ADE7 /* Build configuration list for PBXNativeTarget "JXDemo-JXDemo" */;
+			buildPhases = (
+				04DC852CB70029AB81EEBB4A048DFD1F /* Sources */,
+				9CFC67211A720ECC324EBBA4A50F9D42 /* Frameworks */,
+				88E964778F9BA07812B23DE8910A39B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JXDemo-JXDemo";
+			productName = "JXDemo-JXDemo";
+			productReference = 30897AA43323FFDD366A499F9E889065 /* JXDemo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		740124B3EE5D14F0E8AF4C9163C297A8 /* QMUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D93AEE679D7868D2F6D207FF5746F0A /* Build configuration list for PBXNativeTarget "QMUIKit" */;
+			buildPhases = (
+				9F2F522ADBD01CE2D872911BCCA3FC51 /* Headers */,
+				CCE56A0472C46EF679FD5BFE6A5318E1 /* Sources */,
+				076617144FDCD9181581A0848697B52D /* Frameworks */,
+				5B46161C9412C935A96EFA3531E7750A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMUIKit;
+			productName = QMUIKit;
+			productReference = 8596B7A0C5A3E188061E9EDDAB573FCE /* QMUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F8118C917DF24754018AF262B5FF77F /* JXUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E9E98E75C1A364070EB3254B0CE4DC /* Build configuration list for PBXNativeTarget "JXUIKit" */;
+			buildPhases = (
+				7BD9FE2BE725D8057F6364FC27499544 /* Headers */,
+				56D29F2759B538A6EEAE2AAF8619BEE1 /* Sources */,
+				AA4B85C7359992782F21969630BF7146 /* Frameworks */,
+				A51A55C3F8BFA9BD9A24A2DB8DC6FE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169D7CE172471DEC9F58828FF8223BA6 /* PBXTargetDependency */,
+			);
+			name = JXUIKit;
+			productName = JXUIKit;
+			productReference = 01C5BA1CBB75EAD4A231C62BF86E4F51 /* JXUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D18B877707EFC0BCE3AC0E146CF628AC /* JXDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7409F779C8368BDEC347F8D54F9F361 /* Build configuration list for PBXNativeTarget "JXDemo" */;
+			buildPhases = (
+				8BD1620733466BE1D5C4AEFDE61079BE /* Headers */,
+				7A32A5B1413463730B9C35FF6FFE7CA2 /* Sources */,
+				39F592BDB9ED2C2A6CE870D7602FCD14 /* Frameworks */,
+				5DA69E5C99F3B571E425EDE935994EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5DC38C7FC4A48BCAD5BC1968D7A392D /* PBXTargetDependency */,
+				E69CD6BDA4900D4F5DE2C67FF27AED57 /* PBXTargetDependency */,
+			);
+			name = JXDemo;
+			productName = JXDemo;
+			productReference = 45687C74F2B96C4E97B9ACDD76556423 /* JXDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9E4F00C2B3953AF83550D9E9E741B9A /* Pods-JXUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086A99367F2274573C286AC2990F9162 /* Build configuration list for PBXNativeTarget "Pods-JXUIKit_Tests" */;
+			buildPhases = (
+				BA64CC06E67769C64220C7F81EC6A55A /* Headers */,
+				BC748DE9949C2D4CC8127E97C69AEAF2 /* Sources */,
+				64913844D1309EFAA8EFFE993A5ECD78 /* Frameworks */,
+				EDE0AC7453AC0A7AAB9A6A5D3B86D4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F88FF13B86681F798F63988033F239C /* PBXTargetDependency */,
+			);
+			name = "Pods-JXUIKit_Tests";
+			productName = "Pods-JXUIKit_Tests";
+			productReference = CA997EF29B84BADB38CF50FF305F8385 /* Pods_JXUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1049D7F5364BF52EE38B2A8BDBB9C35 /* Pods-JXUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF56063EEF040B4880CE57809A71319 /* Build configuration list for PBXNativeTarget "Pods-JXUIKit_Example" */;
+			buildPhases = (
+				C76898DA9522CC2D070DA55727BA02C0 /* Headers */,
+				36B3A507286BEA1BB668800E4728BBB5 /* Sources */,
+				2C295329CDA44DCD0A67764CB0E009EE /* Frameworks */,
+				ADD1D72A19256BDA0AA75E1CEDDB70B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35171DACE440C80BC9398C6140D1013 /* PBXTargetDependency */,
+				411A5E24AD70729ECFC4D3B83302F5FF /* PBXTargetDependency */,
+				B987CF185D9DEFC602540F896034883B /* PBXTargetDependency */,
+				B375D2E8BDB182B88D6062AE9F73C8AF /* PBXTargetDependency */,
+			);
+			name = "Pods-JXUIKit_Example";
+			productName = "Pods-JXUIKit_Example";
+			productReference = D1E1624DF67F6516ADE9761D551ABE4F /* Pods_JXUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B5AE019D52CDCAB304580A7D8F4AC0D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18B877707EFC0BCE3AC0E146CF628AC /* JXDemo */,
+				51CF4E97FB3098468519EB3488D48DD3 /* JXDemo-JXDemo */,
+				9F8118C917DF24754018AF262B5FF77F /* JXUIKit */,
+				47CCF1D9F019FFC6546DA481B71A2C4E /* Mantle */,
+				E1049D7F5364BF52EE38B2A8BDBB9C35 /* Pods-JXUIKit_Example */,
+				D9E4F00C2B3953AF83550D9E9E741B9A /* Pods-JXUIKit_Tests */,
+				740124B3EE5D14F0E8AF4C9163C297A8 /* QMUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B46161C9412C935A96EFA3531E7750A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA69E5C99F3B571E425EDE935994EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34266595FFDEE57E7726371410A1C5D /* JXDemo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E964778F9BA07812B23DE8910A39B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA85210A7EE576EC73D80C74DF88894 /* jxd_nav_back@2x.png in Resources */,
+				2E1B83ED897E7AD6060EBD0FF3739961 /* jxd_nav_back@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51A55C3F8BFA9BD9A24A2DB8DC6FE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD1D72A19256BDA0AA75E1CEDDB70B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0635130DCEDDB3E74EC648D889DA5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE0AC7453AC0A7AAB9A6A5D3B86D4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DC852CB70029AB81EEBB4A048DFD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E970F3728EE8AF506B72AF014262FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813B2FEE8DB2BCB5B7B2EDBB854DF9D6 /* EXTRuntimeExtensions.m in Sources */,
+				943ACC2154ECE43BB3D4F8FB680FCD6F /* EXTScope.m in Sources */,
+				DB140B86F26C7EA42CA8A31F8781FB05 /* Mantle-dummy.m in Sources */,
+				1980ED4BE6E142382D6FCF3EE410A51B /* MTLJSONAdapter.m in Sources */,
+				FF9E079D55A6A2752489FC3889167E3F /* MTLModel+NSCoding.m in Sources */,
+				1C440AE07FE64AF5362290FF47DA10FD /* MTLModel.m in Sources */,
+				0E3BF5F84815D5AF635F873BAB08E99E /* MTLReflection.m in Sources */,
+				BC7B9254EFEF9F26E36F368618A18998 /* MTLTransformerErrorHandling.m in Sources */,
+				46B6ABA12A9C4546A20D37AD86275C0A /* MTLValueTransformer.m in Sources */,
+				1B87D11ADE259BD0BF535D907F2040FB /* NSArray+MTLManipulationAdditions.m in Sources */,
+				F4472521A28521815959A9802725C724 /* NSDictionary+MTLJSONKeyPath.m in Sources */,
+				C5B2BC11D173374BB48543CF366DAEA7 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				2252680537D1661ADFA1A8A1AD4F0C3E /* NSDictionary+MTLMappingAdditions.m in Sources */,
+				C64B47ADABED55B3C93BAC050BADBCD5 /* NSError+MTLModelException.m in Sources */,
+				47C0948A51E450FF4024F3BAE379F3F7 /* NSObject+MTLComparisonAdditions.m in Sources */,
+				49769B9FE5DA0F51A8E4E172C6147C04 /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				0CA10518E9FE1B5F590414719C2AAA41 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3A507286BEA1BB668800E4728BBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56AB0BDC3C06D8C57F35B5EFC276B63 /* Pods-JXUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D29F2759B538A6EEAE2AAF8619BEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56316DC80D97A401827640E7FB54587 /* JXUIButton.m in Sources */,
+				3A7848140FBE9202627775CFABEE0315 /* JXUIKit-dummy.m in Sources */,
+				2A5D3EB3A7E833CDBDD87DBAA67CBDA8 /* JXUILabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32A5B1413463730B9C35FF6FFE7CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9449EED7BF68D7227B9AA18BA87DC7F2 /* JXDBaseObject.m in Sources */,
+				9DB7DCC4F85B0DDFFAB8E597C2C5577D /* JXDBaseTableCell.m in Sources */,
+				EAF667EC2E72A83D45ADF169546D0768 /* JXDBaseViewController.m in Sources */,
+				C97375D4ABB3EFF8F7AC5FB15D94154E /* JXDCase.m in Sources */,
+				D3132171AF611656C5890BBBEA0DEE51 /* JXDCaseCell.m in Sources */,
+				B732DEDB5EDB42A934D4094C9048BE3D /* JXDCaseViewController.m in Sources */,
+				2E4FB0859C830D86D117356B0F2AC9CE /* JXDemo-dummy.m in Sources */,
+				2BD3BF08E7EE50D606F352D0DD7FE70D /* JXDTableViewController.m in Sources */,
+				5C083737E518372D092E7B36B8F2130C /* JXDWebViewController.m in Sources */,
+				3340F74C4D33A79B81562CD632E5CCB1 /* JXDWebViewProgressView.m in Sources */,
+				A1F4652DDB2589C6A44EADD3D2D2DD9E /* NSBundle+JXDemo.m in Sources */,
+				FD8DECCDBF7654977D1F0431673AAA42 /* NSString+JXDemo.m in Sources */,
+				C1858AAD65C09289D6E5FA59615E110D /* NSURL+JXDemo.m in Sources */,
+				2CF516927D33D40CD25126C9954BEA24 /* UIApplication+JXDemo.m in Sources */,
+				A43A361A5F2F1B5D125AE7C70890CDC9 /* UIImage+JXDemo.m in Sources */,
+				076E85A89EAB501AE2FF0C4053FF5A8F /* UIView+JXDemo.m in Sources */,
+				F38FA65F10D6A1B72BA7FC5849F6418C /* UIWindow+JXDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC748DE9949C2D4CC8127E97C69AEAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B644AFC7CC1F0C92B58D481712F0CAF /* Pods-JXUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE56A0472C46EF679FD5BFE6A5318E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B22CBC634B123F706EAD6375040AB6A /* CALayer+QMUI.m in Sources */,
+				27EF66383F1747AF5742970F8ECAA3A7 /* NSArray+QMUI.m in Sources */,
+				35B7693EA6E4524DD589626A305777A4 /* NSAttributedString+QMUI.m in Sources */,
+				7571F3108EA6F9AD464308B4862F9BA9 /* NSCharacterSet+QMUI.m in Sources */,
+				B9AC3A847226F5B55028E988F271F9A4 /* NSMethodSignature+QMUI.m in Sources */,
+				F776D716F41D713223DEBC713818440C /* NSNumber+QMUI.m in Sources */,
+				EE90443281AA0463F5C459A75B2FF19D /* NSObject+QMUI.m in Sources */,
+				0DF155B055F968D4906ED8FEC9AD35CF /* NSParagraphStyle+QMUI.m in Sources */,
+				2496751E3B5E9FCDBE618AB86D8A7DE1 /* NSPointerArray+QMUI.m in Sources */,
+				0D30B475838175B8D7C5BC222E891B77 /* NSString+QMUI.m in Sources */,
+				8D2C564045E89BDE09728D417E591503 /* NSURL+QMUI.m in Sources */,
+				4F60C38713C5CC6B9C57D2E8CDCCA689 /* QMUIConfiguration.m in Sources */,
+				40BCB80D15C9F47AA93EC111B635B53D /* QMUIHelper.m in Sources */,
+				F059D7DFE4F7954A5BFB2669713E7885 /* QMUIKit-dummy.m in Sources */,
+				5B2E709D0B91CB4CC8C3D0589D3D1DF6 /* QMUILogger.m in Sources */,
+				7E6D7851F9CAEFD5168BEFB03F85A04D /* QMUILogItem.m in Sources */,
+				B01FE3CEEA9C73EF1D6BD1F597040EEA /* QMUILogNameManager.m in Sources */,
+				14BEED6353F21896A308A23433886F2D /* QMUIRuntime.m in Sources */,
+				B62C394D681E53A13C861F574DBB5EA4 /* QMUIWeakObjectContainer.m in Sources */,
+				346F8082DFC8E7058EE3FA0727D08A4F /* UIActivityIndicatorView+QMUI.m in Sources */,
+				C35214AD68D9663FDA041AF6F17A78D7 /* UIBarItem+QMUI.m in Sources */,
+				B2897A33534568BBA26B7B06D573E638 /* UIBezierPath+QMUI.m in Sources */,
+				E2A71CA9FED006BB69DC35A863E173CF /* UIButton+QMUI.m in Sources */,
+				0C5E1AD27041C130AD17AED928FA49C2 /* UICollectionView+QMUI.m in Sources */,
+				E013D3D29FC33F8AEAA17B53F832005C /* UIColor+QMUI.m in Sources */,
+				D875AA367F93DD2AC5D46AE7AC3549FD /* UIControl+QMUI.m in Sources */,
+				071EBD52127CA810F09BF46BC336FABC /* UIFont+QMUI.m in Sources */,
+				51AFA781AB84B20F906FC851FA1F03BD /* UIGestureRecognizer+QMUI.m in Sources */,
+				4B4BAF75DB5F5A87DFD4BA9412A1C102 /* UIImage+QMUI.m in Sources */,
+				5A25A6468AFD3083E8E367A1109D1486 /* UIImageView+QMUI.m in Sources */,
+				571B026AF97735B80B9BDC44D82F370B /* UIInterface+QMUI.m in Sources */,
+				E9482974893BDC04BE64BED910003402 /* UILabel+QMUI.m in Sources */,
+				A0DCD814959702EC09B4EB2F214C7030 /* UIMenuController+QMUI.m in Sources */,
+				3F5316853096973FCA0A3C09283DBBE3 /* UINavigationBar+QMUI.m in Sources */,
+				AB393ED40C103671C1D4A0331E91E03E /* UINavigationController+QMUI.m in Sources */,
+				A4D68E0BCAFA5AA50A1DB69D04EC85EF /* UIScrollView+QMUI.m in Sources */,
+				550F4824CCF41A5C87D08FB03949A0A7 /* UISearchBar+QMUI.m in Sources */,
+				C602F3C54234382850F885AFC760E3B8 /* UISearchController+QMUI.m in Sources */,
+				0002B5F46D742A1AD2E638D5F8E192D4 /* UISwitch+QMUI.m in Sources */,
+				D7926711D707D9624914FC9DCF1A5010 /* UITabBar+QMUI.m in Sources */,
+				50856E7BD10E271360370751DEE729CA /* UITabBarItem+QMUI.m in Sources */,
+				D3BA1FDFD945A1431803501683839DC5 /* UITableView+QMUI.m in Sources */,
+				E501AD732492BEFAAF1B1E60619E5789 /* UITableViewCell+QMUI.m in Sources */,
+				62A122ADA0BBD37F2F7B35A64AA73BDA /* UITextField+QMUI.m in Sources */,
+				2357FFC1EFE6897A53C41355E5C78001 /* UITextInputTraits+QMUI.m in Sources */,
+				331912A627330D0E3C9B4B8937C78455 /* UITextView+QMUI.m in Sources */,
+				BB367FFC8C18C415990D4FFE27A67307 /* UITraitCollection+QMUI.m in Sources */,
+				ADDC2FDEA9213CF3A848FCEACFA9E199 /* UIView+QMUI.m in Sources */,
+				1C6519C5229FBE4AA4634F731A339C7D /* UIViewController+QMUI.m in Sources */,
+				65D0B0EAE298F9F9E1276A26F5C6ED50 /* UIWindow+QMUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169D7CE172471DEC9F58828FF8223BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMUIKit;
+			target = 740124B3EE5D14F0E8AF4C9163C297A8 /* QMUIKit */;
+			targetProxy = 685A4C47801B14A32ED7374BDE50CC70 /* PBXContainerItemProxy */;
+		};
+		411A5E24AD70729ECFC4D3B83302F5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXUIKit;
+			target = 9F8118C917DF24754018AF262B5FF77F /* JXUIKit */;
+			targetProxy = 310EF5CA74A559E060DA816CB756813E /* PBXContainerItemProxy */;
+		};
+		5F88FF13B86681F798F63988033F239C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JXUIKit_Example";
+			target = E1049D7F5364BF52EE38B2A8BDBB9C35 /* Pods-JXUIKit_Example */;
+			targetProxy = DD97E04F87AEF79B0FD9D5C1324C094A /* PBXContainerItemProxy */;
+		};
+		B375D2E8BDB182B88D6062AE9F73C8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMUIKit;
+			target = 740124B3EE5D14F0E8AF4C9163C297A8 /* QMUIKit */;
+			targetProxy = 91F88A3FB0C13FA81144288B0DBFBC89 /* PBXContainerItemProxy */;
+		};
+		B987CF185D9DEFC602540F896034883B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantle;
+			target = 47CCF1D9F019FFC6546DA481B71A2C4E /* Mantle */;
+			targetProxy = 91B1BFD3AA2DC415605A2E43B77FD6FD /* PBXContainerItemProxy */;
+		};
+		E35171DACE440C80BC9398C6140D1013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXDemo;
+			target = D18B877707EFC0BCE3AC0E146CF628AC /* JXDemo */;
+			targetProxy = 04E682A53F77F442A3DE3634F2767617 /* PBXContainerItemProxy */;
+		};
+		E5DC38C7FC4A48BCAD5BC1968D7A392D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JXDemo-JXDemo";
+			target = 51CF4E97FB3098468519EB3488D48DD3 /* JXDemo-JXDemo */;
+			targetProxy = DEC0C3E31764A02086CC0008F1669925 /* PBXContainerItemProxy */;
+		};
+		E69CD6BDA4900D4F5DE2C67FF27AED57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantle;
+			target = 47CCF1D9F019FFC6546DA481B71A2C4E /* Mantle */;
+			targetProxy = 8A0DE6886AB98405CCF96D329C8FA398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DF47C0AA31E529541A543FD433817AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7FA8CD60587A84525348197BB005BA /* Pods-JXUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXUIKit_Tests/Pods-JXUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXUIKit_Tests/Pods-JXUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		250728AF58C0632B60D8B5E7B0FAC991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B030D45247C66E2FA50E7965B94A20 /* JXUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXUIKit/JXUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXUIKit/JXUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXUIKit/JXUIKit.modulemap";
+				PRODUCT_MODULE_NAME = JXUIKit;
+				PRODUCT_NAME = JXUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28D4B02729C57EF5BDBE8D5FF9DBD6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9127985ABD7049E9842E2E4C59BCCC47 /* Pods-JXUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXUIKit_Example/Pods-JXUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXUIKit_Example/Pods-JXUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50A7059F06BFFE6FF174EB6BE46A77BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951A5D0164F67D6C0F428A090A6ABB9F /* JXDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXDemo/JXDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXDemo/JXDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXDemo/JXDemo.modulemap";
+				PRODUCT_MODULE_NAME = JXDemo;
+				PRODUCT_NAME = JXDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A65A72623AFB326A16EBC470AF2198E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4790D16E124BB0C3B0FFB4E48E84894C /* Mantle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mantle/Mantle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mantle/Mantle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mantle/Mantle.modulemap";
+				PRODUCT_MODULE_NAME = Mantle;
+				PRODUCT_NAME = Mantle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AB728D1960A5442F3363CA4CC8ED28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B030D45247C66E2FA50E7965B94A20 /* JXUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXUIKit/JXUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXUIKit/JXUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXUIKit/JXUIKit.modulemap";
+				PRODUCT_MODULE_NAME = JXUIKit;
+				PRODUCT_NAME = JXUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		664E5DE76BE5C1C7606ABE215DD50EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4790D16E124BB0C3B0FFB4E48E84894C /* Mantle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mantle/Mantle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mantle/Mantle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mantle/Mantle.modulemap";
+				PRODUCT_MODULE_NAME = Mantle;
+				PRODUCT_NAME = Mantle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68730B03B2132DF74BE6210B45A4E9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951A5D0164F67D6C0F428A090A6ABB9F /* JXDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXDemo";
+				IBSC_MODULE = JXDemo;
+				INFOPLIST_FILE = "Target Support Files/JXDemo/ResourceBundle-JXDemo-JXDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JXDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7F15A458A852BE420555AC93676D10AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3683A8AA6BA3F40E44D782203FCB9AE8 /* QMUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3EEBAD15E3414CABFB4555087593F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951A5D0164F67D6C0F428A090A6ABB9F /* JXDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXDemo/JXDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXDemo/JXDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXDemo/JXDemo.modulemap";
+				PRODUCT_MODULE_NAME = JXDemo;
+				PRODUCT_NAME = JXDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB22031B4DE1D59888E681DD41EE81F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B584EFBA0C0C09EA1E734312D92F4A /* Pods-JXUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXUIKit_Tests/Pods-JXUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXUIKit_Tests/Pods-JXUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEE6A472E5D5A67DF8992C9729F8F015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9724803752AB97B86C94568A85407C1 /* Pods-JXUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXUIKit_Example/Pods-JXUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXUIKit_Example/Pods-JXUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF3C72E156CB1023A25CF65DA7BDCACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3683A8AA6BA3F40E44D782203FCB9AE8 /* QMUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE03B57068EA959682A52BC7A3B688EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951A5D0164F67D6C0F428A090A6ABB9F /* JXDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXDemo";
+				IBSC_MODULE = JXDemo;
+				INFOPLIST_FILE = "Target Support Files/JXDemo/ResourceBundle-JXDemo-JXDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JXDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F51DD606207927B3F74CDC0AA8F184 /* Build configuration list for PBXNativeTarget "Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664E5DE76BE5C1C7606ABE215DD50EDD /* Debug */,
+				5A65A72623AFB326A16EBC470AF2198E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086A99367F2274573C286AC2990F9162 /* Build configuration list for PBXNativeTarget "Pods-JXUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22031B4DE1D59888E681DD41EE81F4 /* Debug */,
+				0DF47C0AA31E529541A543FD433817AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D93AEE679D7868D2F6D207FF5746F0A /* Build configuration list for PBXNativeTarget "QMUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F15A458A852BE420555AC93676D10AB /* Debug */,
+				CF3C72E156CB1023A25CF65DA7BDCACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A3E5C5B79415F76A7E270BF1A2ADE7 /* Build configuration list for PBXNativeTarget "JXDemo-JXDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68730B03B2132DF74BE6210B45A4E9E5 /* Debug */,
+				EE03B57068EA959682A52BC7A3B688EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF56063EEF040B4880CE57809A71319 /* Build configuration list for PBXNativeTarget "Pods-JXUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE6A472E5D5A67DF8992C9729F8F015 /* Debug */,
+				28D4B02729C57EF5BDBE8D5FF9DBD6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7409F779C8368BDEC347F8D54F9F361 /* Build configuration list for PBXNativeTarget "JXDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EEBAD15E3414CABFB4555087593F78 /* Debug */,
+				50A7059F06BFFE6FF174EB6BE46A77BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E9E98E75C1A364070EB3254B0CE4DC /* Build configuration list for PBXNativeTarget "JXUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB728D1960A5442F3363CA4CC8ED28F /* Debug */,
+				250728AF58C0632B60D8B5E7B0FAC991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

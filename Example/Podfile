@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JXUIKit_Example' do
+  pod 'JXDemo', '1.0.4'
+  pod 'JXUIKit', :path => '../'
+
+  target 'JXUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

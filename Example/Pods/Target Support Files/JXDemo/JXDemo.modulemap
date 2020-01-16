@@ -1,0 +1,6 @@
+framework module JXDemo {
+  umbrella header "JXDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

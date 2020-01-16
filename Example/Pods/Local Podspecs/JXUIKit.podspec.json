@@ -1,0 +1,28 @@
+{
+  "name": "JXUIKit",
+  "version": "1.0.0",
+  "summary": "iOS UI Kit",
+  "description": "iOS UI Kit using ObjC.",
+  "homepage": "https://github.com/tospery/JXUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tospery": "tospery@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tospery/JXUIKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JXUIKit/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "QMUIKit/QMUICore": [
+      "4.0.4"
+    ]
+  }
+}
